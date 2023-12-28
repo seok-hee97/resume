@@ -1,8 +1,7 @@
 # SeokHee Jang(Evan)
 
 - Mail: <cycloevan97@gmail.com>
-
-
+- Github : <https://github.com/seok-hee97>
 
 
 ## Education
