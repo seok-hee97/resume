@@ -15,6 +15,7 @@
 ## Career
 
 - 2021.11 ~ 2023.03 포체인스
+  주요 업무 : 데이터 수집, 전처리,
 
 
 ## Skills
@@ -41,7 +42,7 @@ Tool : Docker, AWS, Git
 
 - 사용언어 : Python, Lua
 - 사용기술 및 도구 : HTML, Django, Jupyter, Flask, Nginx,   
-  AWS(Ec2, sagemaker), Mysql, SQLite, Docker     
+  AWS(Ec2, Sagemaker, S3), Mysql, SQLite, Docker     
 
 ![system-config](img/mlwaf/system-config.png)
 
