@@ -20,7 +20,7 @@
 
 ## Skills
 Language : Python, C, C++, Lua     
-Lib : PyQt, Pytorch, Tensorflow, Pandas, Numpy, Django.     
+Lib : PyQt, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask     
 Tool : Docker, AWS, Git         
 
 ## Project 
