@@ -2,7 +2,7 @@
 
 - Mail: <cycloevan97@gmail.com>
 - Github : <https://github.com/seok-hee97>
-
+- LinkedIn : [LinkedIn](https://www.linkedin.com/in/seokhee-jang-73142426a/)
 
 ## Education
 
