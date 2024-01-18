@@ -4,6 +4,10 @@
 - Github : <https://github.com/seok-hee97>
 - LinkedIn : [LinkedIn](https://www.linkedin.com/in/seokhee-jang-73142426a/)
 
+
+## Summary
+
+
 ## Education
 
 - 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공)| 학사 취득   
@@ -47,5 +51,4 @@ Tool : Docker, AWS, Git
 ![system-config](img/mlwaf/system-config.png)
 
 
-
-
+## Certifications
