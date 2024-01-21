@@ -21,7 +21,7 @@ and creating a better future through Deep Learning/Machine Learning.
 ## Career
 
 - 2021.11 ~ 2023.03 Four Chains     
-  Main tasks: data analysis, product development (anti-virus)       
+  Main tasks: data analysis, product development(anti-virus)       
 
 
 ## Skills
@@ -34,17 +34,18 @@ Tool : Docker, AWS, Git
 
 ### Probe Anti-Virus 프로그램
 
-- link : https://wadiz.onelink.me/gmeA/h9i75ge4
-- Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine
+- link : https://wadiz.onelink.me/gmeA/h9i75ge4      
+- Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine         
 ![main](img/probe/probe_main.png)
 
 
 ###  Ml-WAF   
 - link : https://github.com/Team-Pyree/mlwaf    
-- About Project: Using Nginx event-driven/async IO structure ML endpoint REST API call and MySQL DB Insert Implementation of high-performance firewall through
-- 
-- Lanaguage : Python, Lua
-- framewokr&tool : HTML, Django, Jupyter, Flask, Nginx,   
+- About Project: Using Nginx event-driven/async IO structure ML   
+  endpoint REST API call and MySQL DB Insert     
+  Implementation of high-performance firewall through     
+- Lanaguage : Python, Lua     
+- framewokr&tool : HTML, Django, Jupyter, Flask, Nginx,       
   AWS(Ec2, Sagemaker, S3), Mysql, SQLite, Docker     
 
 ![system-config](img/mlwaf/system-config.png)
