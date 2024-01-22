@@ -52,6 +52,6 @@ Tool : Docker, AWS, Git
 
 
 ## Certifications
- - 유통관리사 2급
- - 워드프로세서
- - Mos Master
+ - Distribution Management (Level 2)
+ - Word processor certification
+ - Microsoft Office Specialist (MOS) Master
