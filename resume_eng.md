@@ -9,6 +9,11 @@
 I am passionate about contributing to the optimization of global issues     
 and creating a better future through Deep Learning/Machine Learning.      
 
+
+## Military
+2017.01 ~ 2018.12 | Korean Air Force | Honerably Discharged
+
+
 ## Education
 
 - 2016.03 ~ 2023.02 | Gangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree earned
