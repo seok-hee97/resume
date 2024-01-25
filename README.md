@@ -8,6 +8,12 @@
 ## Summary
 DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들어가는 데 기여하고 싶습니다.
 
+
+## Military
+2017.01 ~ 2018.12 | Korean Air Force | Honerably Discharged
+**Military Specialty:**: Logistics
+
+
 ## Education
 
 - 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공)| 학사 취득   

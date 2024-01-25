@@ -12,6 +12,7 @@ and creating a better future through Deep Learning/Machine Learning.
 
 ## Military
 2017.01 ~ 2018.12 | Korean Air Force | Honerably Discharged
+**Military Specialty:**: Logistics
 
 
 ## Education
