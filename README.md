@@ -10,8 +10,8 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 
 ## Military
-2017.01 ~ 2018.12 | Korean Air Force | Honerably Discharged
-**Military Specialty:**: Logistics
+2017.01 ~ 2018.12 | 대한민국 공군 | 현역 만기 제대
+특기: 보급(Logistics)
 
 
 ## Education
