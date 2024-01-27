@@ -7,7 +7,7 @@
 
 ## Summary
 I am passionate about contributing to the optimization of global issues     
-and creating a better future through Deep Learning/Machine Learning.      
+and creating a better future through DL/ML.      
 
 
 ## Military
