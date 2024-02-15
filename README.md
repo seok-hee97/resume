@@ -26,6 +26,12 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 - 2021.11 ~ 2023.03 포체인스     
   주요 업무 : 데이터 분석, 제품개발(안티바이러스)             
+  - **Collecting Data**
+  - **Data Analysis and Feature Extraction**
+  - **ML Modeling**
+  - **Develop Probe Anti-Virus Program:**
+  - **mathematical definitions and theorems convert into code.**
+
 
 
 ## Skills
