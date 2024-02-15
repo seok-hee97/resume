@@ -28,6 +28,11 @@ and creating a better future through DL/ML.
 
 - 2021.11 ~ 2023.03 Four Chains     
   Main tasks: data analysis, product development(anti-virus)       
+  - **Collecting Data**
+  - **Data Analysis and Feature Extraction**
+  - **ML Modeling**
+  - **Develop Probe Anti-Virus Program**
+  - **mathematical definitions and theorems convert into code.**
 
 
 ## Skills
