@@ -5,17 +5,17 @@
 - LinkedIn : [LinkedIn](https://www.linkedin.com/in/seokhee-jang-73142426a/)
 
 
-## Summary
+## **Summary**
 I am passionate about contributing to the optimization of global issues     
 and creating a better future through DL/ML.      
 
 
-## Military
-2017.01 ~ 2018.12 | Republic of Korea Air Force | Honerably Discharged.  
-**Military Specialty:**: Logistics
+## **Military**
+2017.01 ~ 2018.12 | Republic of Korea Air Force | Honerably Discharged.    
+- Military Specialty:: Logistics
 
 
-## Education
+## **Education**
 
 - 2016.03 ~ 2023.02 | Kangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree earned
 - 2023.04 ~ 2023.12 | KISIA | SDEV (S-Developer) | Education Certificate
@@ -24,33 +24,36 @@ and creating a better future through DL/ML.
 - 2023.11.22 ~ 2023.11.24 | KISIA | ICT convergence industrial security human resources training project blockchain field | Education Certificate
 
 
-## Career
+## **Career**
 
 - 2021.11 ~ 2023.03 Four Chains     
-  Main tasks: data analysis, product development(anti-virus)       
-  - **Collecting Data**
-  - **Data Analysis and Feature Extraction**
-  - **ML Modeling**
-  - **Develop Probe Anti-Virus Program**
-  - **mathematical definitions and theorems convert into code.**
+  Main tasks: data analysis, product development(anti-virus)    
+  - Collecting Data(Malware/Benign data)
+  - Data Analysis and Feature Extraction
+  - ML Modeling
+    - CNN(malware-> grayscale image(data preprocessing)),    
+      Tree Model(LightGBM, Catboost, XGBoost, RF(RandomForest))
+  - Develop Probe Anti-Virus Program
+    - functions: Quick scan, detailed scan, smart scan, pc cleaner, quarantine.    
+  - Mathematical definitions and theorems convert into code.
 
 
-## Skills
+## **Skills**
 Language : Python, C, C++, Lua     
 Lib : PyQt, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask     
 Tool : Docker, AWS, Git         
 
-## Project 
+## **Project** 
 
 
-### Probe Anti-Virus 프로그램
+### **Probe Anti-Virus 프로그램**
 
 - link : https://wadiz.onelink.me/gmeA/h9i75ge4      
 - Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine         
 ![main](img/probe/probe_main.png)
 
 
-###  Ml-WAF   
+###  **Ml-WAF**   
 - link : https://github.com/Team-Pyree/mlwaf    
 - About Project: Using Nginx event-driven/async IO structure ML   
   endpoint REST API call and MySQL DB Insert     
@@ -62,7 +65,7 @@ Tool : Docker, AWS, Git
 ![system-config](img/mlwaf/system-config.png)
 
 
-## Certifications
- - Distribution Management (Level 2)
+## **Certifications**
+ - Distribution Management (Level 2) |
  - Word processor certification
  - Microsoft Office Specialist (MOS) Master
