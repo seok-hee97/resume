@@ -4,16 +4,15 @@
 
 
 
+### Math&Statics
+
+
+
 
 
 
 
 #### Uni Subjects
-
-선형대수학
-전자공학도를위한 공업수학
-
-
 
 ##### industrial engineering
 기계공학개론
@@ -33,7 +32,7 @@
 품질관리I
 프로그래밍I(python)
 
-##### software engineering
+##### software engineering(S)
 C프로그래밍I
 객체치향프로그램(C++)
 기계학습(machine learning)

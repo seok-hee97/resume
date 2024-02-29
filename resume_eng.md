@@ -11,13 +11,13 @@ and creating a better future through DL/ML.
 
 
 ## Military
-2017.01 ~ 2018.12 | Republic of Korea Air Force | Honerably Discharged
+2017.01 ~ 2018.12 | Republic of Korea Air Force | Honerably Discharged.  
 **Military Specialty:**: Logistics
 
 
 ## Education
 
-- 2016.03 ~ 2023.02 | Gangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree earned
+- 2016.03 ~ 2023.02 | Kangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree earned
 - 2023.04 ~ 2023.12 | KISIA | SDEV (S-Developer) | Education Certificate
 - 2023.11.13 ~ 2023.12.08 | KISIA | Cloud Security | Education Certificate
 - 2023.10.27 ~ 2023.11.16 | KISIA | Malware analysis and technology trends using AI | Education Certificate
