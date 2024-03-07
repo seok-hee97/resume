@@ -37,7 +37,7 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 
 ## **Skills**
-- Language : Python, C, C++, Lua, SQL(mysql, postgressql, mongodb)     
+- Language : Python, C, C++, Lua, JavaScript, SQL(mysql, postgressql, mongodb)     
 - Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
 - Tool : Docker, AWS, Git, Slack, Discord         
   
