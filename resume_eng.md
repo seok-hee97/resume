@@ -17,7 +17,7 @@ and creating a better future through DL/ML.
 
 ## **Education**
 
-- 2016.03 ~ 2023.02 | Kangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree earned
+- 2016.03 ~ 2023.02 | Kangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree
 - 2023.04 ~ 2023.12 | KISIA | SDEV (S-Developer) | Education Certificate
 - 2023.11.13 ~ 2023.12.08 | KISIA | Cloud Security | Education Certificate
 - 2023.10.27 ~ 2023.11.16 | KISIA | Malware analysis and technology trends using AI | Education Certificate
@@ -38,23 +38,23 @@ and creating a better future through DL/ML.
   - Mathematical definitions and theorems convert into code.
 
 
-## **Skills**
-Language : Python, C, C++, Lua     
-Lib : PyQt, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask     
+## **Skills**    
+Language : Python, C, C++, Lua, SQL(mysql, postgresql, mongodb)     
+Lib : PyQt, scikit-earn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask     
 Tool : Docker, AWS, Git         
 
-## **Project** 
+## **Project**     
 
 
-### **Probe Anti-Virus 프로그램**
+### **Probe Anti-Virus 프로그램**    
 
-- link : https://wadiz.onelink.me/gmeA/h9i75ge4      
+- link : <https://wadiz.onelink.me/gmeA/h9i75ge4>      
 - Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine         
 ![main](img/probe/probe_main.png)
 
 
-###  **Ml-WAF**   
-- link : https://github.com/Team-Pyree/mlwaf    
+###  **Ml-WAF**      
+- link : <https://github.com/Team-Pyree/mlwaf>    
 - About Project: Using Nginx event-driven/async IO structure ML   
   endpoint REST API call and MySQL DB Insert     
   Implementation of high-performance firewall through     
@@ -65,7 +65,7 @@ Tool : Docker, AWS, Git
 ![system-config](img/mlwaf/system-config.png)
 
 
-## **Certifications**
+## **Certifications**    
  - Distribution Management (Level 2) |
  - Word processor certification
  - Microsoft Office Specialist (MOS) Master

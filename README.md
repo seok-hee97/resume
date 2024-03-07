@@ -10,7 +10,7 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 
 ## **Military**
-2017.01 ~ 2018.12 | 대한민국 공군 | 현역 만기 제대
+2017.01 ~ 2018.12 | 대한민국 공군 | 현역 만기 제대      
 특기: 보급(Logistics)
 
 
@@ -25,7 +25,6 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 ## **Career**
 
 - 2021.11 ~ 2023.03 포체인스     
-  주요 업무 : 데이터 분석, 제품개발(안티바이러스)             
   - Collecting Data(Malware/Benign data)
   - Data Analysis and Feature Extraction
   - ML Modeling
@@ -38,9 +37,10 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 
 ## **Skills**
-Language : Python, C, C++, Lua     
-Lib : PyQt, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask     
-Tool : Docker, AWS, Git         
+- Language : Python, C, C++, Lua, SQL(mysql, postgressql, mongodb)     
+- Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
+- Tool : Docker, AWS, Git, Slack, Discord         
+  
 
 ## **Project** 
 
