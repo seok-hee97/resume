@@ -1,4 +1,4 @@
-# SeokHee Jang(Evan)
+# **SeokHee Jang(Evan)**
 
 - Mail: <cycloevan97@gmail.com>
 - Github : <https://github.com/seok-hee97>
@@ -39,14 +39,14 @@ and creating a better future through DL/ML.
 
 
 ## **Skills**    
-Language : Python, C, C++, Lua, SQL(mysql, postgresql, mongodb)     
-Lib : PyQt, scikit-earn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask     
-Tool : Docker, AWS, Git         
+- Language : Python, C, C++, Lua, SQL(mysql, postgresql, mongodb)     
+- Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
+- Tool : Docker, AWS, Git, Slack, Discord         
 
 ## **Project**     
 
 
-### **Probe Anti-Virus 프로그램**    
+### **Probe Anti-Virus Program**    
 
 - link : <https://wadiz.onelink.me/gmeA/h9i75ge4>      
 - Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine         
@@ -66,6 +66,6 @@ Tool : Docker, AWS, Git
 
 
 ## **Certifications**    
- - Distribution Management (Level 2) |
- - Word processor certification
- - Microsoft Office Specialist (MOS) Master
+ - Distribution Management (Level 2)  
+ - Word processor certification   
+ - Microsoft Office Specialist (MOS) Master   
