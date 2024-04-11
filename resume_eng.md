@@ -53,7 +53,7 @@ and creating a better future through DL/ML.
 ![main](img/probe/probe_main.png)
 
 
-###  **Ml-WAF**      
+###  **ML-WAF**      
 - link : <https://github.com/Team-Pyree/mlwaf>    
 - About Project: Using Nginx event-driven/async IO structure ML   
   endpoint REST API call and MySQL DB Insert     
