@@ -10,8 +10,7 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 
 ## **Military**
-2017.01 ~ 2018.12 | 대한민국 공군 | 현역 만기 제대      
-특기: 보급(Logistics)
+2017.01 ~ 2018.12 | 대한민국 공군 | 현역 만기 제대 | 특기: 보급(Logistics)
 
 
 ## **Education**
@@ -24,22 +23,43 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 ## **Career**
 
-- 2021.11 ~ 2023.03 포체인스     
-  - Collecting Data(Malware/Benign data)
-  - Data Analysis and Feature Extraction
-  - ML Modeling
-    - CNN(malware-> grayscale image(data preprocessing)),    
-      Tree Model(LightGBM, Catboost, XGBoost, RF(RandomForest))
-  - Develop Probe Anti-Virus Program
-    - functions: Quick scan, detailed scan, smart scan, pc cleaner, quarantine.    
-  - Mathematical definitions and theorems convert into code.
+#### Four-Chains(포체인스)  
+(Goyang-si, Gyeonggi-do, Republic of Korea)     
+(2021.11 ~ 2023.03)    
+(소속:개발 2부 사원(Data Analyst) / 개발본부)    
 
+주요 업무:
+- 프로브 안티바이러스 프로그램 기능 개발 및 구현
+- 머신러닝 기법을 활용한 악성코드 감지 연구 및 분석
+
+- Collecting Data(Malware/Benign data)   
+  - Collect Malware /Benign data(By using Crawling)&KISA dataset 
+  - Double check -> virustotal api-key(python)   
+  - Data Labeling
+
+- Feature Extraction and Data Analysis
+  - Feature Extraction
+  - Data Analysis
+    - EDA
+    - Correlation analysis
+  
+- ML Modeling
+  - CNN(malware-> grayscale image(data preprocessing))
+    - Malware/Benign file convert grayscale image(byte data -> image)
+    - CNN Modeling
+  - Tree Model(LightGBM, Catboost, XGBoost, RF(RandomForest))
+    - Feature Selection&dimensionality reduction     
+      (Mathematical(Topology) definitions and theorems convert into code&apply)
+    - Tree Model Modeling
+  
+- Develop Probe Anti-Virus Program
+  - functions: Quick scan, detailed scan, smart scan, pc cleaner, quarantine 
 
 ## **Skills**    
-- Language : Python, C, C++, Lua, JavaScript, SQL(mysql, postgressql, mongodb)     
+- Language : Python, C, C++, Lua, JavaScript, SQL(mysql, postgressql, mongodb), Hive, bash     
 - Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
-- Tool : Docker, AWS, Git, Slack, Discord         
-
+- Tool : Docker, AWS(s3, ec2, api gateway, lambda, sagemaker, cloudformation, authena), Git, Slack, Discord         
+ 
 
 ## **Project** 
 
