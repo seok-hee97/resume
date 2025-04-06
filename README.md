@@ -31,7 +31,7 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 주요 업무:
 - 프로브 안티바이러스 프로그램 기능 개발 및 구현
-- 머신러닝 기법을 활용한 악성코드 감지 연구 및 분석
+- 수학적 기법을 활용한 악성코드 머신러닝 탐지 연구 및 분석
 
 - Collecting Data(Malware/Benign data)   
   - Collect Malware /Benign data(By using Crawling)&KISA dataset 
@@ -41,9 +41,7 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 - Feature Extraction and Data Analysis
   - Feature Extraction
   - Data Analysis
-    - EDA
-    - Correlation analysis
-  
+    - EDA & Correlation analysis
 - ML Modeling
   - CNN(malware-> grayscale image(data preprocessing))
     - Malware/Benign file convert grayscale image(byte data -> image)
