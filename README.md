@@ -19,7 +19,7 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 - 2023.10.27 ~ 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료   
 - 2023.11.22 ~ 2023.11.24 | KISIA | ICT융합산업보안 인력양성사업 블록체인 분야 | 교육 수료
 - 2024.07 ~ 2024.10 | GOOGLE | GOOGLE ML BOOTCAMP 5기 | 수료
-- 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료
+- 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료 (우수상 수상)
 
 
 ## **Career**    
@@ -58,6 +58,17 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 (Seoul, Republic of Korea)     
 (2024.07 ~ present)(python 개발자)
 
+
+
+- Development and Optimization of ML-Based Malware Detection Systems
+  - Monitored and analyzed ML model performance to identify issues and apply improvement strategies
+  - Enhanced detection accuracy through PE file analysis and dataset construction
+  - Designed and prototyped new detection algorithms by researching emerging malware trends
+
+- Security System Operations and Workflow Automation
+  - Developed and managed Python-based automation systems for analysis and response tasks
+  - Supported engine optimization and resolved issues related to certification processes
+  - Analyzed security threat trends and produced detailed intelligence reports
 
 
 
