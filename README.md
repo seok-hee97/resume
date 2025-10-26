@@ -2,26 +2,25 @@
 
 - Mail: <cycloevan97@gmail.com>
 - Github : <https://github.com/seok-hee97>
-- LinkedIn : [LinkedIn](https://www.linkedin.com/in/seokhee-jang-73142426a/)
-
+- LinkedIn : <https://www.linkedin.com/in/seokhee-chang97/>
+- HuggingFace : <https://huggingface.co/cycloevan>
 
 ## **Summary**
 DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들어가는 데 기여하고 싶습니다.
 
 
 ## **Military**
-2017.01 ~ 2018.12 | 대한민국 공군 | 현역 만기 제대      
-특기: 보급(Logistics)
-
+- 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대  | 특기: 보급(Logistics)
 
 ## **Education**
-
 - 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공)| 학사 취득   
 - 2023.04 ~ 2023.12 | KISIA | SDEV(S-개발자) 1기 | 교육 수료 
 - 2023.11.13 ~ 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료  
 - 2023.10.27 ~ 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료   
 - 2023.11.22 ~ 2023.11.24 | KISIA | ICT융합산업보안 인력양성사업 블록체인 분야 | 교육 수료
 - 2024.07 ~ 2024.10 | GOOGLE | GOOGLE ML BOOTCAMP 5기 | 수료
+- 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료
+
 
 ## **Career**    
 
@@ -60,6 +59,8 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 (2024.07 ~ present)(python 개발자)
 
 
+
+
 ## **Skills**    
 - Language : Python, C, C++, Lua, JavaScript, SQL(mysql, postgressql, mongodb), Hive, bash     
 - Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
@@ -70,3 +71,12 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
  - 유통관리사 2급
  - 워드프로세서
  - Mos Master
+
+
+
+### **Project**
+
+
+
+
+
