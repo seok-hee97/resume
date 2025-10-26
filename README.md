@@ -24,56 +24,55 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 ## **Career**    
 
-#### Four-Chains(포체인스)  
-(Goyang-si, Gyeonggi-do, Republic of Korea)     
-(2021.11 ~ 2023.03)    
-(소속:개발 2부 사원(Data Analyst) / 개발본부)    
 
-주요 업무:
-- 프로브 안티바이러스 프로그램 기능 개발 및 구현
-- 수학적 기법을 활용한 악성코드 머신러닝 탐지 연구 및 분석
+#### INCA-Internet (잉카인터넷)
+(Seoul, Republic of Korea)  
+(2024.07 ~ present)  
+(소속: ISARC / 직급: 사원)
 
-- Collecting Data(Malware/Benign data)   
-  - Collect Malware /Benign data(By using Crawling)&KISA dataset 
-  - Double check -> virustotal api-key(python)   
-  - Data Labeling
+담당업무: 업무자동화 개발 / ML 연구
 
-- Feature Extraction and Data Analysis
-  - Feature Extraction
-  - Data Analysis
-    - EDA & Correlation analysis
-- ML Modeling
-  - CNN(malware-> grayscale image(data preprocessing))
-    - Malware/Benign file convert grayscale image(byte data -> image)
-    - CNN Modeling
-  - Tree Model(LightGBM, Catboost, XGBoost, RF(RandomForest))
-    - Feature Selection&dimensionality reduction     
-      (Mathematical(Topology) definitions and theorems convert into code&apply)
-    - Tree Model Modeling
-  
-- Develop Probe Anti-Virus Program
-  - functions: Quick scan, detailed scan, smart scan, pc cleaner, quarantine 
+- ML 엔진 운영 및 성능 개선
+  - 악성코드 탐지 모델 운영 및 성능 최적화 수행 (랜섬웨어, 스틸러, 웜, 뱅커)
+  - 대규모 악성코드 데이터셋 구축
+  - ML 모델 클래스 불균형 개선을 위한 보정 적용
+  - ML 엔진 이슈 모니터링 및 예외 처리
 
-#### INCA-Internet (잉카인터넷)  
-(Seoul, Republic of Korea)     
-(2024.07 ~ present)(python 개발자)
+- 랜섬웨어 유사도 탐지 연구 (진행중)
+  - Siamese Neural Network 기반 랜섬웨어 분류 모델 연구
+  - 딥러닝 기반 악성코드 Generic 진단 방법 연구
 
+- 대응업무 (상시)
+  - 자사 솔루션 위협 탐지 대응 및 악성코드 동적 분석
+  - 대응 보고서 작성
+  - TTSC (사내 서비스) 오진 파일 자동 수집 시스템 개발
+  - 그레이 샘플 수집 조회 시스템 구축 (설치자동화 프로그램 연동)
+  - 인스톨러 파일 설치자동화 프로그램 개발 (그레이 샘플 확보 목적)
+  - 패턴업데이트 자동화 프로세스 개발
 
+#### Four-Chains(포체인스)
+(Goyang-si, Gyeonggi-do, Republic of Korea)  
+(2021.11 ~ 2023.03)  
+(소속: 개발 2부 / 직급: 사원)
 
-- Development and Optimization of ML-Based Malware Detection Systems
-  - Monitored and analyzed ML model performance to identify issues and apply improvement strategies
-  - Enhanced detection accuracy through PE file analysis and dataset construction
-  - Designed and prototyped new detection algorithms by researching emerging malware trends
+담당업무: 안티바이러스 개발 / ML 연구
 
-- Security System Operations and Workflow Automation
-  - Developed and managed Python-based automation systems for analysis and response tasks
-  - Supported engine optimization and resolved issues related to certification processes
-  - Analyzed security threat trends and produced detailed intelligence reports
+- Topology(위상수학) 기반 특징 선택(Feature Selection) 알고리즘 연구
+  - 악성코드/정상 데이터 수집 및 특징 추출 (PE header 기반)
+  - Topology 기반 Feature Selection 알고리즘 구현
+  - 알고리즘 적용 및 ML 모델링
 
+- 악성코드 GrayScale 이미지 기반 탐지 연구
+  - 악성코드/정상 데이터 수집 및 GrayScale 이미지 변환
+  - CNN 기반 ML 모델링 및 개선
 
+- Probe AntiVirus 프로그램 개발
+  - 안티바이러스 프로그램 개발 (빠른 검사, 스마트 검사, PC 최적화, 격리소)
+  - 악성코드 패턴 생성 및 개발 (reference: kicom-av)
+  - 자사 악성코드 탐지 알고리즘 개발 및 연동
 
 ## **Skills**    
-- Language : Python, C, C++, Lua, JavaScript, SQL(mysql, postgressql, mongodb), Hive, bash     
+- Language : Python, C, C++, SQL(mysql, postgressql, mongodb), Hive, bash     
 - Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
 - Tool : Docker, AWS(s3, ec2, api gateway, lambda, sagemaker, cloudformation, authena), Git, Slack, Discord         
    
@@ -82,10 +81,6 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
  - 유통관리사 2급
  - 워드프로세서
  - Mos Master
-
-
-
-### **Project**
 
 
 
