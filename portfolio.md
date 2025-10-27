@@ -16,8 +16,7 @@
 ## **PROJECTS**
 
 ### **AI-Powered Code Vulnerability Detection System**
-**Meta Llama Academy 1st Cohort | Award: Excellence Award (Korea Radio Promotion Association)**  
-**October 2024**
+**Meta Llama Academy 1th | Award: Excellence Award (Korea Radio Promotion Association)**  
 
 An automated code security analysis system utilizing multi-agent LLM architecture for vulnerability detection, severity assessment, and patch generation.
 
