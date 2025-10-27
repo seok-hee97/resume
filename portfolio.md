@@ -19,7 +19,7 @@
 **Meta Llama Academy 1st Cohort | Award: Excellence Award (Korea Radio Promotion Association)**  
 **October 2024**
 
-An automated code security analysis system utilizing multi-agent LLM architecture for vulnerability detection, severity assessment, and patch generation.[3][4]
+An automated code security analysis system utilizing multi-agent LLM architecture for vulnerability detection, severity assessment, and patch generation.
 
 **Project Overview**:  
 - Designed and implemented a multi-LLM agent system that automatically detects security vulnerabilities in source code, evaluates severity using CVE database comparison, and generates remediation patches for high-risk issues  
@@ -73,7 +73,7 @@ Enterprise-grade antivirus solution with comprehensive malware detection and sys
 ### **ML-WAF (Machine Learning Web Application Firewall)**
 **Team Pyree**
 
-High-performance web application firewall leveraging Nginx's event-driven architecture with machine learning-based threat detection.[6][7][8]
+High-performance web application firewall leveraging Nginx's event-driven architecture with machine learning-based threat detection.
 
 **Project Overview**:  
 - Built scalable WAF system utilizing Nginx's asynchronous I/O structure for ML endpoint REST API calls and MySQL database integration  
@@ -102,7 +102,7 @@ High-performance web application firewall leveraging Nginx's event-driven archit
 ### **KISA AI Challenge 2023**
 **Korea Internet & Security Agency**
 
-Network traffic analysis competition focused on attack type multi-class classification.[9][10]
+Network traffic analysis competition focused on attack type multi-class classification.
 
 **Project Overview**:  
 - Participated in A-track challenge for network traffic attack classification  
@@ -127,7 +127,7 @@ Network traffic analysis competition focused on attack type multi-class classifi
 ### **ML-BOOTCAMP 5th**
 **Kaggle & Google Gemma Sprint**
 
-Intensive deep learning training program with competitive achievements in Kaggle competition and LLM fine-tuning project.[11]
+Intensive deep learning training program with competitive achievements in Kaggle competition and LLM fine-tuning project.
 
 **Project Overview**:  
 - Completed Deep Learning Specialization certification  
