@@ -15,7 +15,7 @@
 ## **PROJECTS**
 
 ### **AI-Powered Code Vulnerability Detection System**
-**Meta Llama Academy 1th | Award: Excellence Award (Korea Radio Promotion Association)**  
+**Meta Llama Academy 1th | Award: Excellence Award RAPA(Korea Radio Promotion Association)**  
 
 An automated code security analysis system utilizing multi-agent LLM architecture for vulnerability detection, severity assessment, and patch generation.
 
@@ -62,7 +62,7 @@ Enterprise-grade antivirus solution with comprehensive malware detection and sys
 - **Packaging**: Inno Setup for distribution
 
 **Links**:  
-- DOCS : [wadiz](https://www.wadiz.kr/web/campaign/detail/153064), [Documentation](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf)
+- DOCS : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064), [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf)
 
 ***
 
@@ -155,7 +155,7 @@ Intensive deep learning training program with competitive achievements in Kaggle
 **Excellence Award (Korea Radio Promotion Association Director Award)**  
 Meta LLM Agent & On-device AI Workshop 1st Cohort  
 Organized by: Meta, RAPA, Upstage  
-Date: October 2, 2024  
+Date: October 2, 2025  
 Project: AI Code Review-Based Automated Vulnerability Analysis System (Team 'LLaMA Guard')
 
 ***
