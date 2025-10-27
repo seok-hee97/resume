@@ -51,6 +51,7 @@ Enterprise-grade antivirus solution with comprehensive malware detection and sys
 - Developed complete antivirus application with multiple scan modes (Quick Scan, Deep Scan, Smart Scan) and system optimization features  
 - Engineered proprietary malware detection algorithms and integrated them with the core AV engine  
 - Implemented quarantine management system and PC optimization module for comprehensive endpoint protection
+![main](img/probe/probe_main.png)
 
 **Key Features**:  
 - **Multi-mode Scanning**: Quick, Deep, and Smart scan capabilities for flexible threat detection  
@@ -79,7 +80,7 @@ High-performance web application firewall leveraging Nginx's event-driven archit
 - Built scalable WAF system utilizing Nginx's asynchronous I/O structure for ML endpoint REST API calls and MySQL database integration  
 - Implemented real-time threat detection using machine learning models for web attack classification  
 - Achieved high-performance firewall capabilities through efficient request processing and model inference
-
+![system-config](img/mlwaf/system-config.png)
 **Architecture & Design**:  
 - **Event-Driven Processing**: Leveraged Nginx's non-blocking I/O for concurrent request handling  
 - **ML Integration**: REST API endpoint for real-time threat classification  
@@ -137,8 +138,8 @@ Intensive deep learning training program with competitive achievements in Kaggle
 **Competition Achievement**:  
 - **Challenge**: Binary Prediction of Poisonous Mushrooms  
 - **Ranking**: 76 out of 2,422 participants (top 3.1%)  
+  ![img](img/kaggle-competition.png)
 - **Approach**: Advanced ML techniques for binary classification with imbalanced datasets
-
 
 **Gemma Sprint Project**:  
 - Fine-tuned Google's Gemma-2-2B language model for GDPR-related text classification  
