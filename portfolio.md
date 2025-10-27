@@ -136,8 +136,8 @@ Intensive deep learning training program with competitive achievements in Kaggle
 - **Approach**: Feature engineering with XGBoost and LightGBM ensemble strategy
 
 **Gemma Sprint Project**:  
-- Fine-tuned Google's Gemma-2-2B language model for GDPR-related text classification  
-- Specialized model deployment on Hugging Face platform  
+- Fine-tuned Gemma-2-2B model for GDPR compliance Q&A using Direct Preference Optimization (DPO)
+- Deployed specialized GDPR assistant model on Hugging Face platform  
 
 **Technologies Used**:  
 - **Deep Learning**: TensorFlow, PyTorch  
