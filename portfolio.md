@@ -10,8 +10,10 @@
 
 ### **Probe Anti-Virus Program**      
 - link : <https://www.wadiz.kr/web/campaign/detail/153064>      
-- Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine         
-
+- 주요 기능 : 빠른 검사, 정밀 검사, 스마트 검사, PC 최적화, 격리소 
+  - 안티바이러스 프로그램 개발 (빠른 검사, 정밀 검사, 스마트 검사, PC 최적화, 격리소)
+  - 악성코드 패턴 생성 및 연
+  - 자사 악성코드 탐지 알고리즘 개발 및 연동
 
 ###  **ML-WAF**      
 - link : <https://github.com/Team-Pyree/mlwaf>    
@@ -27,6 +29,11 @@
 - link : https://github.com/seok-hee97/kisa-ai-2023
 
 ### **ML-BOOTCAMP**
+- Deep Learning Specialization 수료
+- Kaggle Compe
+
+
+
 - link : https://github.com/seok-hee97/gdpr-gemma2
 
 ### **Meta Llama Academy**
@@ -36,6 +43,10 @@
 - 기사 : 
 https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/
 https://www.etnews.com/20251002000253
+
+
+
+
 
 
 
