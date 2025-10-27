@@ -1,71 +1,75 @@
-# **SeokHee Chang(Evan)**
+# **SeokHee Chang (장석희)**
 
-- Mail: <cycloevan97@gmail.com>
-- Github : <https://github.com/seok-hee97>
-- LinkedIn : [LinkedIn](https://www.linkedin.com/in/seokhee-jang-73142426a/)
+## **Contact**
+- Email: <cycloevan97@gmailil.com>
+- GitHub: <https://github.com/seok-hee97>
+- LinkedIn: <https://www.linkedin.com/in/seokhee-chang97/>
+- HuggingFace: <https://huggingface.co/cycloevan>
 
-
-## **Summary**
-I am passionate about contributing to the optimization of global issues     
-and creating a better future through DL/ML.      
-
-
-## **Military**
-2017.01 ~ 2018.12 | Republic of Korea Air Force | Honerably Discharged.    
-- Military Specialty:: Logistics
-
+## **Military Service**
+- 2017.01.09 ~ 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
 
 ## **Education**
-
-- 2016.03 ~ 2023.02 | Kangnam University | Industrial Management Engineering Major/Software Major (Double Major) | Bachelor's degree
-- 2023.04 ~ 2023.12 | KISIA | SDEV (S-Developer) | Education Certificate
-- 2023.11.13 ~ 2023.12.08 | KISIA | Cloud Security | Education Certificate
-- 2023.10.27 ~ 2023.11.16 | KISIA | Malware analysis and technology trends using AI | Education Certificate
-- 2023.11.22 ~ 2023.11.24 | KISIA | ICT convergence industrial security human resources training project blockchain field | Education Certificate
-
+- 2016.03 ~ 2023.02 | Kangnam University | Bachelor's Degree in Industrial and Management Engineering / Software Engineering (Double Major)
+- 2023.04 ~ 2023.12 | KISIA | SDEV (S-Developer) 1th | Completed
+- 2023.11.13 ~ 2023.12.08 | KISIA | Cloud Security | Completed
+- 2023.10.27 ~ 2023.11.16 | KISIA | Malware Analysis and Technology Trends Using AI | Completed
+- 2023.11.22 ~ 2023.11.24 | KISIA | ICT Convergence Industry Security Workforce Development Program - Blockchain | Completed
+- 2024.07 ~ 2024.10 | GOOGLE | Google ML Bootcamp 5th | Completed
+- 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1th | Completed (Excellence Award)
 
 ## **Career**
 
-- 2021.11 ~ 2023.03 Four Chains     
-  Main tasks: data analysis, product development(anti-virus)    
-  - Collecting Data(Malware/Benign data)
-  - Data Analysis and Feature Extraction
-  - ML Modeling
-    - CNN(malware-> grayscale image(data preprocessing)),    
-      Tree Model(LightGBM, Catboost, XGBoost, RF(RandomForest))
-  - Develop Probe Anti-Virus Program
-    - functions: Quick scan, detailed scan, smart scan, pc cleaner, quarantine.    
-  - Mathematical definitions and theorems convert into code.
+### **INCA Internet**
+(Seoul, Republic of Korea)  
+(2024.07 ~ Present)  
+(Department: ISARC / Position: Python Developer)  
+Responsibilities: Automation Development / ML Research
 
+- ML Engine Operation and Performance Improvement
+  - Operated and optimized malware detection models (ransomware, stealer, worm, banker)
+  - Built large-scale malware datasets
+  - Applied calibration to improve ML model class imbalance
+  - Monitored ML engine issues and implemented exception handling
 
-## **Skills**    
-- Language : Python, C, C++, Lua, SQL(mysql, postgresql, mongodb)     
-- Lib : PyQt, Scikit-Learn, Pytorch, Tensorflow, Pandas, Numpy, Django, Flask, PySpark     
-- Tool : Docker, AWS, Git, Slack, Discord         
+- Ransomware Similarity Detection Research (Ongoing)
+  - Researched Siamese Neural Network-based ransomware classification model
+  - Researched deep learning-based malware generic detection methods
 
-## **Project**     
+- Response Operations (Ongoing)
+  - Threat detection response and dynamic malware analysis for company solutions
+  - Response report writing
+  - Developed TTSC (internal service) automatic false positive file collection system
+  - Built gray sample collection and query system (integrated with installation automation program)
+  - Developed installer file automation program (for securing gray samples)
+  - Developed pattern update automation process
 
+### **Four-Chains**
+(Goyang-si, Gyeonggi-do, Republic of Korea)  
+(2021.11 ~ 2023.03)  
+(Department: Development Team 2 / Position: Software Engineer / Data analysis)  
+Responsibilities: Antivirus Development / ML Research
 
-### **Probe Anti-Virus Program**    
+- Topology-Based Feature Selection Algorithm Research
+  - Collected malware/benign data and extracted features (PE header-based)
+  - Implemented topology-based feature selection algorithm
+  - Applied algorithm and performed ML modeling
 
-- link : <https://wadiz.onelink.me/gmeA/h9i75ge4>      
-- Main functions: Quick scan, detailed scan, smart scan, PC optimization, quarantine         
-![main](img/probe/probe_main.png)
+- Malware Grayscale Image-Based Detection Research
+  - Collected malware/benign data and converted to grayscale images
+  - CNN-based ML modeling and improvement
 
+- Probe AntiVirus Program Development
+  - Developed antivirus program (quick scan, smart scan, PC optimization, quarantine)
+  - Generated and developed malware patterns
+  - Developed and integrated proprietary malware detection algorithm
 
-###  **ML-WAF**      
-- link : <https://github.com/Team-Pyree/mlwaf>    
-- About Project: Using Nginx event-driven/async IO structure ML   
-  endpoint REST API call and MySQL DB Insert     
-  Implementation of high-performance firewall through     
-- Lanaguage : Python, Lua     
-- framewokr&tool : HTML, Django, Jupyter, Flask, Nginx,       
-  AWS(Ec2, Sagemaker, S3), Mysql, SQLite, Docker     
-
-![system-config](img/mlwaf/system-config.png)
-
+## **Skills**
+- Language: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Hive, Bash
+- Library: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark
+- Tool: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation, Athena), Git, Slack, Discord
 
 ## **Certifications**    
- - Distribution Management (Level 2)  
- - Word processor certification   
- - Microsoft Office Specialist (MOS) Master   
+- Distribution Management (Level 2)  
+- Word processor certification   
+- Microsoft Office Specialist (MOS) Master  
