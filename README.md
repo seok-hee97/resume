@@ -1,4 +1,4 @@
-# **SeokHee Chang(Evan)**
+# **장석희 (SeokHee Chang)**
 
 - Mail: <cycloevan97@gmail.com>
 - Github : <https://github.com/seok-hee97>
