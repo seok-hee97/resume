@@ -84,9 +84,9 @@ High-performance web application firewall leveraging Nginx's event-driven archit
 
 **Technologies Used**:  
 - **Languages**: Python, Lua  
-- **Frameworks**: Django (admin interface), Flask (ML API), Nginx (proxy layer)  
+- **Frameworks**: Django (WAS), Flask (web develop), Nginx (proxy layer)  
 - **ML Tools**: Jupyter Notebook for model development  
-- **Cloud Platform**: AWS (EC2, SageMaker, S3)  
+- **Cloud Platform**: AWS (EC2, SageMaker, S3, Cloudformation)  
 - **Databases**: MySQL, SQLite  
 - **DevOps**: Docker for containerization
 
