@@ -128,7 +128,7 @@ Intensive deep learning training program with competitive achievements in Kaggle
 **Project Overview**:  
 - Completed Deep Learning Specialization certification  
 - Achieved top 5% ranking in Kaggle competition "Binary Prediction of Poisonous Mushrooms" (76/2,422 participants)  
-- Fine-tuned Gemma-2-2B model for GDPR compliance classification
+- Fine-tuned Gemma-2-2B model for GDPR compliance Q&A assistant
 
 **Competition Achievement**:  
 - **Challenge**: Binary Prediction of Poisonous Mushrooms  
