@@ -5,10 +5,6 @@
 - LinkedIn : <https://www.linkedin.com/in/seokhee-chang97/>
 - HuggingFace : <https://huggingface.co/cycloevan>
 
-## **Summary**
-DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들어가는 데 기여하고 싶습니다.
-
-
 ## **Military**
 - 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대  | 특기: 보급(Logistics)
 
@@ -24,12 +20,10 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
 
 ## **Career**    
 
-
-#### INCA-Internet (잉카인터넷)
+#### **INCA-Internet (잉카인터넷)**
 (Seoul, Republic of Korea)  
 (2024.07 ~ present)  
 (소속: ISARC / 직급: 사원)
-
 담당업무: 업무자동화 개발 / ML 연구
 
 - ML 엔진 운영 및 성능 개선
@@ -50,11 +44,10 @@ DL/ML을 통해 세상의 문제를 최적화하고, 더 나은 미래를 만들
   - 인스톨러 파일 설치자동화 프로그램 개발 (그레이 샘플 확보 목적)
   - 패턴업데이트 자동화 프로세스 개발
 
-#### Four-Chains(포체인스)
+#### **Four-Chains (포체인스)**
 (Goyang-si, Gyeonggi-do, Republic of Korea)  
 (2021.11 ~ 2023.03)  
 (소속: 개발 2부 / 직급: 사원)
-
 담당업무: 안티바이러스 개발 / ML 연구
 
 - Topology(위상수학) 기반 특징 선택(Feature Selection) 알고리즘 연구
