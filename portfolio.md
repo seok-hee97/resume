@@ -9,11 +9,12 @@
 ## **PROJECTS**
 
 ### **Probe Anti-Virus Program**      
-- link : <https://www.wadiz.kr/web/campaign/detail/153064>      
+- link : [wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [file](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) 
 - 주요 기능 : 빠른 검사, 정밀 검사, 스마트 검사, PC 최적화, 격리소 
-  - 안티바이러스 프로그램 개발 (빠른 검사, 정밀 검사, 스마트 검사, PC 최적화, 격리소)
-  - 악성코드 패턴 생성 및 연
-  - 자사 악성코드 탐지 알고리즘 개발 및 연동
+- 안티바이러스 프로그램 개발 
+  (빠른 검사, 정밀 검사, 스마트 검사, PC 최적화, 격리소).  
+- 자사 악성코드 탐지 알고리즘 개발 및 연동
+- skils : python, pyqt, sql, inno setup, etc
 
 ###  **ML-WAF**      
 - link : <https://github.com/Team-Pyree/mlwaf>    
@@ -27,16 +28,16 @@
 
 ### **KISA-AI-CHALLENGE**
 - link : https://github.com/seok-hee97/kisa-ai-2023
-
-### **ML-BOOTCAMP**
+- 
+### **ML-BOOTCAMP 5th**
 - Deep Learning Specialization 수료
-- Kaggle Compe
+- Kaggle Competition 
 
 
 
 - link : https://github.com/seok-hee97/gdpr-gemma2
 
-### **Meta Llama Academy**
+### **Meta Llama Academy 1th**
 
 - Code : https://github.com/UpstageAI/edu-usecase/tree/meta-llama-workshop/projects/04-llamaguard
 - model : https://huggingface.co/cycloevan/vuln_detector
