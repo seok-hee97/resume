@@ -42,7 +42,7 @@ An automated code security analysis system utilizing multi-agent LLM architectur
 
 ### **Probe Anti-Virus Program**
 
-Enterprise-grade antivirus solution with comprehensive malware detection and system optimization capabilities.
+Antivirus solution with comprehensive malware detection and system optimization capabilities.
 
 **Project Overview**:  
 - Developed complete antivirus application with multiple scan modes (Quick Scan, Deep Scan, Smart Scan) and system optimization features  
