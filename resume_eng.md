@@ -5,7 +5,8 @@
 - GitHub: <https://github.com/seok-hee97>
 - LinkedIn: <https://www.linkedin.com/in/seokhee-chang97/>
 - HuggingFace: <https://huggingface.co/cycloevan>
-
+- Portfoilo : [link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+- 
 ## **Military Service**
 - 2017.01.09 ~ 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
 
