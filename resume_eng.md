@@ -1,4 +1,4 @@
-# **SeokHee Chang (장석희)**
+# **Seokhee Chang (장석희)**
 
 ## **Contact**
 - Email: <cycloevan97@gmailil.com>
