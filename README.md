@@ -6,7 +6,7 @@
 - Github : <https://github.com/seok-hee97>
 - LinkedIn : <https://www.linkedin.com/in/seokhee-chang97/>
 - HuggingFace : <https://huggingface.co/cycloevan>
-- Portfoilo : [link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+- Portfoilo : [Link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
 
 ## **Military**
 - 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대  | 특기: 보급(Logistics)
