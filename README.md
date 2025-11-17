@@ -1,4 +1,4 @@
-# **장석희 (SeokHee Chang)**
+# **장석희 (Seokhee Chang)**
 
 
 ## **Contact**
