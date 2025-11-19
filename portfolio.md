@@ -1,7 +1,9 @@
 ## **장석희 (Seokhee Chang)**  
 ## **Portfolio**
 
-## **CONTACT**
+***
+
+### **CONTACT**
 - **Email**: <cycloevan97@gmail.com>  
 - **GitHub**: <https://github.com/seok-hee97>  
 - **LinkedIn**: <https://www.linkedin.com/in/seokhee-chang97/>  
