@@ -19,7 +19,7 @@
 ***
 
 ### AI Agent 기반 코드 취약점 탐지 시스템
-> 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 기간 : 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
 - 시스템 구성 : On-device Model (취약점 종류 탐지(Severnity)) → RAG 기반 CVE database (vectorized) similarity search →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
 - Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
@@ -32,7 +32,7 @@
 ***
 
 ### Google ML Bootcamp
-> 1인 (Google ML Bootcamp 5th) | 기간: 2024.07 - 2024.10
+> 1인 (Google ML Bootcamp 5th) | 기간 : 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
 - (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 5% 달성.
   > MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
@@ -56,7 +56,7 @@
 ***
 
 ### Probe Anti-Virus 프로그램
-> 2 - 3인 (Four-Chains) | 2022.03 - 2022.11
+> 2 - 3인 (Four-Chains) | 기간 : 2022.03 - 2022.11
 - ML 기반 악성코드 탐지 및 시스템 최적화 기능을 갖춘 안티바이러스 솔루션 개발.
 - 빠른검사 (취약 영역 중점) / 정밀검사 (사용자 선택 영역) / 스마트 검사 (스캔 + 최적화) 검사 기능 개발.
   > (악성코드 탐지) 수학적 모델링 알고리즘(ML 기반 유사도 알고리즘) + 로직 기반 탐지 알고리즘 적용.
