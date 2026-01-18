@@ -38,7 +38,7 @@
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.
   - Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.
 - Skill: PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
-- 링크: [gdpr-gemma 모델](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
+- 링크: [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
 
@@ -50,7 +50,7 @@
 - AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을 컨테이너화한 ML‑WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.  
 - (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여 Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.  
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
-- 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [사이보보안 AI 챌린지 2023](https://github.com/seok-hee97/kisa-ai-2023)
+- 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [cybersecurity-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
 ***
 
@@ -61,7 +61,7 @@
   > (악성코드 탐지) 수학적 모델링 알고리즘(ML 기반 유사도 알고리즘) + 로직 기반 탐지 알고리즘 적용.
 - 시스템 최적화(34개 확장자 불필요 파일 (경로) 삭제), 격리소 관리(복원/치료), 실시간 보호 기능 구현 개발. 
 - Skills : Python, PyQt (GUI), SQL, Inoo Setup, ML
-- 링크 : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [문서](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
+- 링크 : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
 
 ***
 
