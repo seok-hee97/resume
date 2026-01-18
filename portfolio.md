@@ -50,7 +50,7 @@
 - AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을 컨테이너화한 ML‑WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.  
 - (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여 Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.  
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
-- 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [cybersecurity-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
+- 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
 ***
 
