@@ -25,7 +25,7 @@
 > 1인 (Google ML Bootcamp 5th) | 기간: 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
 - (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 5% 달성.
-- (76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
+-  MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.
   - Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.
 - Skill: PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
