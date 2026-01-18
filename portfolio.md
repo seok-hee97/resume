@@ -71,5 +71,5 @@
   > 선행연구 : 'Analysis method for Data similarity measure in Metric Space'
 - 알고리즘: Feature를 위상공간(Topological Space)에 매핑하여 Open Ball 생성 → 각 Ball의 가중치 계산 → 중심 Feature 선택.
 - (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 5-6개로 92% 감소, 분류 정확도 +3%p 향상.
-- Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity)의 알고리즘 개발.
+- 위상수학 Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity)의 알고리즘 개발.
 - Skills : Python, PyTorch, Topological Data Analysis, Feature Engineering, Scikit-learn
