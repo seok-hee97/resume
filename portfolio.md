@@ -21,6 +21,12 @@
 ***
 
 ### AI Agent 기반 코드 취약점 탐지 시스템
+> 5인 (Team LlamaGurad /Meta Llama Academy 1th) | 2025.10.02 
+- 프로젝트 기획 및 설계 / 모델 개발.
+
+
+- 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253)
+
 
 
 ***
