@@ -26,7 +26,7 @@
 - 공개 데이터셋 (언어종류 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.
   > (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259%)
 - Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama-3.2
-- 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | 
+- 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
 
 ***
 
@@ -38,7 +38,7 @@
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.
   - Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.
 - Skill: PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
-- 링크: [모델 링크](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
+- 링크: [gdpr-gemma 모델](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
 
