@@ -9,19 +9,18 @@
 - **LinkedIn**: <https://www.linkedin.com/in/seokhee-chang97/>  
 - **Hugging Face**: <https://huggingface.co/cycloevan>
 
-**Core Skills**:  
-**Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
-**Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark  
-**Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
+### **Core Skills**:  
+- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
+- **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark  
+- **Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
 
 ## **PROJECTS**
 
-### **[KOR]**
 
 ***
 
 ### AI Agent 기반 코드 취약점 탐지 시스템
-> 5인 (Team LlamaGurad /Meta Llama Academy 1th) | 2025.10.02 
+> 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 설계 / 모델 개발.
 
 
@@ -49,7 +48,7 @@
 - ML 모델 개발 (LSTM / TF-IDF + SVM / CNN 기반 모델 개발 및 평가) 및 AWS 배포 담당.
 - 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 실시간 공격 타입 분류 모델(다중 분류) 개발.
 - AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을 컨테이너화한 ML‑WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.  
-- (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여 Accuracy : 90.868 / 70팀 중 17위(상위 25%) 성적 달성.  
+- (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여 Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.  
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
 - 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [사이보보안 AI 챌린지 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
