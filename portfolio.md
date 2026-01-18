@@ -17,11 +17,14 @@
 ## **PROJECTS**
 
 ### **[KOR]**
+
 ***
+
 ### AI Agent 기반 코드 취약점 탐지 시스템
 
 
 ***
+
 ### Google ML Bootcamp
 > 1인 (Google ML Bootcamp 5th) | 기간: 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
@@ -33,17 +36,19 @@
 - 링크: [모델 링크](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
+
 ### ML-WAF (+ KISA-AI-Challenge)
 > 4인 (Team Pyree / S-Developer 1th) | 기간 : 2023.07 - 2023.11
 - Nginx event-driven / async I/O 구조를 활용해 ML REST API와 MySQL을 연동한 고성능 ML‑WAF.
 - ML 모델 개발 (LSTM / TF-IDF + SVM / CNN 기반 모델 개발 및 평가) 및 AWS 배포 담당.
-- 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 다중 클래스 분류 모델 (실시간 공격 타입 분류 모델) 개발.
+- 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 실시간 공격 타입 분류 모델(다중 분류) 개발.
 - AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을 컨테이너화한 ML‑WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.  
 - (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여 Accuracy : 90.868 / 70팀 중 17위(상위 25%) 성적 달성.  
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
 - 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [사이보보안 AI 챌린지 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
 ***
+
 ### Probe Anti-Virus 프로그램
 > 2 - 3인 (Four-Chains) | 2022.03 - 2022.11
 - ML 기반 악성코드 탐지 및 시스템 최적화 기능을 갖춘 안티바이러스 솔루션 개발.
