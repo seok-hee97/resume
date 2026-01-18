@@ -17,10 +17,11 @@
 ## **PROJECTS**
 
 ### **[KOR]**
+***
 ### AI Agent 기반 코드 취약점 탐지 시스템
 
 
-
+***
 ### Google ML Bootcamp
 > 1인 (Google ML Bootcamp 5th) | 기간: 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
@@ -31,7 +32,7 @@
 - Skill: PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
 - 링크: [모델 링크](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
-
+***
 ### ML-WAF (+ KISA-AI-Challenge)
 > 4인 (Team Pyree / S-Developer 1th) | 기간 : 2023.07 - 2023.11
 - Nginx event-driven / async I/O 구조를 활용해 ML REST API와 MySQL을 연동한 고성능 ML‑WAF.
@@ -42,7 +43,7 @@
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
 - 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [사이보보안 AI 챌린지 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
-
+***
 ### Probe Anti-Virus 프로그램
 > 2 - 3인 (Four-Chains) | 2022.03 - 2022.11
 - ML 기반 악성코드 탐지 및 시스템 최적화 기능을 갖춘 안티바이러스 솔루션 개발.
