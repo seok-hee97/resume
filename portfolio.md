@@ -65,7 +65,7 @@
 
 ***
 
-### **Topology 기반 Feature Selection 알고리즘 연구**
+### Topology 기반 Feature Selection 알고리즘 연구
 > 2인 (Four-Chains) | 2022.09 - 2023.03
 - Metric Space 이론 기반 Feature Selection 알고리즘 설계 및 구현.
   > 선행연구 : 'Analysis method for Data similarity measure in Metric Space'
