@@ -18,6 +18,17 @@
 
 ***
 
+### 랜섬웨어 유사도 연구
+> 1인 (INCA Internet) | 2025.10, 11, 2026.01
+- BERT 기반 어셈블리 코드 의미 분석을 활용한 랜섬웨어 패밀리 분류 시스템 설계 및 구현 
+- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT 파인튜닝 → PE-Level 집계 
+- 함수 레벨 F1-Score 92% 달성, 파일 레벨 정확도 88% 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 패밀리 탐지)
+- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 `[addr]`, `[const]`, `[str]`로 정규화하여 모델의 행위 패턴 학습 강화 
+- Weighted Cross-Entropy Loss 적용으로 클래스 불균형 문제 해소 및 소수 패밀리 탐지 성능 개선 
+- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone, NLP (Assembly Code), Feature Engineering
+
+***
+
 ### AI Agent 기반 코드 취약점 탐지 시스템
 > 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 기간 : 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
@@ -27,6 +38,16 @@
   > (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)
 - Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama-3.2
 - 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
+
+***
+
+### 악성코드 탐지 모델 개발 및. 성능 개선
+> 1인 (INCA Internet) | 기간 : 2024.12 - 2025.03
+- 악성코드 탐지 관련 DNN 기반 논문 리뷰 세미나 진행 및 모델 설계·구현.
+- EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.
+  > .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p향상)
+- 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.
+- Skills: Python, Tensorflow, DNN, Feature Engineering, Calibration(Focal Loss, Isotonic)
 
 ***
 
@@ -72,4 +93,16 @@
 - 알고리즘: Feature를 위상공간(Topological Space)에 매핑하여 Open Ball 생성 → 각 Ball의 가중치 계산 → 중심 Feature 선택.
 - (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 5-6개로 92% 감소, 분류 정확도 +3%p 향상.
 - 위상수학 Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity)의 알고리즘 개발.
-- Skills : Python, PyTorch, Mathematics (Topology), Feature Engineering, Scikit-learn
+- Skills : Python, Mathematics (Topology), Feature Engineering, Scikit-learn
+
+---
+
+### 정상 (Gray) 샘플 자동 수집 시스템 개발 (설치자동화 & 샘플조회시스템)
+> 1인 (INCA Internet) | 2024.10, 2025.05 - 2025.06
+- 그레이 샘플 (White-list, 학습용 데이터) 구축을 위한 인스톨러 자동 설치 및 PE 파일 수집 시스템 설계·구현.
+- 설치자동화 시스템 : 16종 인스톨러 타입(Inno Setup, NSIS, MSI 등) 자동 설치 파이프라인 구현,
+  3단계 전략(7-Zip 압축해제 → Silent Mode 실행 → PyWinAuto GUI 자동화) 587개 샘플 중 516개(87%) 자동 수집률 달성.
+- 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.
+- 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터(MD5, 등록일자, 파일경로) 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
+- VMware 가상환경 공유폴더 연동으로 호스트-게스트 간 파일 동기화 및 격리된 설치 환경 구성.
+- Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL
