@@ -37,7 +37,7 @@
   > MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.
   - Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.
-- Skill: PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
+- Skill : PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
 - 링크: [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
@@ -65,4 +65,11 @@
 
 ***
 
-
+### **Topology 기반 Feature Selection 알고리즘 연구**
+> 2인 (Four-Chains) | 2022.09 - 2023.03
+- Metric Space 이론 기반 Feature Selection 알고리즘 설계 및 구현.
+  > 선행연구 : Analysis method for Data similarity measure in Metric Space
+- 알고리즘: Feature를 위상공간(Topological Space)에 매핑하여 Open Ball 생성 → 각 Ball의 가중치 계산 → 중심 Feature 선택.
+- (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 5-6개로 92% 감소, 분류 정확도 +3%p 향상.
+- Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity)의 알고리즘 개발.
+- Skills : Python, PyTorch, Topological Data Analysis, Feature Engineering, Scikit-learn
