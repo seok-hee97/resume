@@ -16,16 +16,17 @@
 
 ## **PROJECTS**
 
-
 ***
 
 ### AI Agent 기반 코드 취약점 탐지 시스템
 > 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
-- 프로젝트 기획 및 설계 / 모델 개발.
-
-
-- 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253)
-
+- 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
+- 시스템 구성 : On-device Model (취약점 종류 탐지(Severnity)) → RAG 기반 CVE database (vectorized) similarity search →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
+- Llama-3.2-1B 모델을 fine-tuning (QLoRA)하여 코드 취약점 탐지 성능 개선. 
+- 500개 validation dataset에서 100개씩 5회 반복 random sampling으로 모델 성능 검증 완료.
+  > (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259%)
+- Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama-3.2
+- 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | 
 
 
 ***
