@@ -30,11 +30,11 @@
 ***
 
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
-> 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 기간 : 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
 - 시스템 구성 : On-device Model (취약점 종류 탐지(Severnity)) → RAG 기반 CVE database (vectorized) similarity search →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
 - Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
-- 공개 데이터셋 (언어종류 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
+- 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)       
 - Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama
 - 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
@@ -42,7 +42,7 @@
 ***
 
 ### **악성코드 탐지 모델 개발 및. 성능 개선**
-> 1인 (INCA Internet) | 기간 : 2024.12 - 2025.03
+> 1인 (INCA Internet) | 2024.12 - 2025.03
 - 악성코드 탐지 관련 DNN 기반 논문 리뷰 세미나 진행 및 모델 설계·구현.    
 - EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.      
   .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p향상)       
@@ -52,7 +52,7 @@
 ***
 
 ### **Google ML Bootcamp**
-> 1인 (Google ML Bootcamp 5th) | 기간 : 2024.07 - 2024.10
+> 1인 (Google ML Bootcamp 5th) | 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
 - (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 5% 달성.    
   MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)         
@@ -64,7 +64,7 @@
 ***
 
 ### **ML-WAF (+ KISA-AI-Challenge)**
-> 4인 (Team Pyree / S-Developer 1th) | 기간 : 2023.07 - 2023.11
+> 4인 (Team Pyree / S-Developer 1th) | 2023.07 - 2023.11
 - Nginx event-driven / async I/O 구조를 활용해 ML REST API와 MySQL을 연동한 고성능 ML‑WAF.
 - ML 모델 개발 (LSTM / TF-IDF + SVM / CNN 기반 모델 개발 및 평가) 및 AWS 배포 담당.
 - 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 실시간 공격 타입 분류 모델(다중 분류) 개발.   
@@ -78,7 +78,7 @@
 ***
 
 ### **Probe Anti-Virus 프로그램**
-> 2 - 3인 (Four-Chains) | 기간 : 2022.03 - 2022.11   
+> 2 - 3인 (Four-Chains) | 2022.03 - 2022.11   
 - ML 기반 악성코드 탐지 및 시스템 최적화 기능을 갖춘 안티바이러스 솔루션 개발.      
 - 빠른검사 (취약 영역 중점) / 정밀검사 (사용자 선택 영역) / 스마트 검사 (스캔 + 최적화) 검사 기능 개발.              
   (악성코드 탐지) 수학적 모델링 알고리즘(ML 기반 유사도 알고리즘) + 로직 기반 탐지 알고리즘 적용.               
@@ -89,7 +89,7 @@
 ***
 
 ### **위상수학 (Topology) 기반 Feature Selection 알고리즘 연구**      
-> 2인 (Four-Chains) | 기간 : 2022.08 - 2023.03     
+> 2인 (Four-Chains) | 2022.08 - 2023.03     
 - Metric Space 이론 기반 Feature Selection 알고리즘 설계 및 구현.      
   선행연구 : 'Analysis method for Data similarity measure in Metric Space'          
 - 알고리즘: Feature를 위상공간(Topological Space)에 매핑하여 Open Ball 생성 → 각 Ball의 가중치 계산 → 중심 Feature 선택.      
