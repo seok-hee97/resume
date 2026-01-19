@@ -68,8 +68,10 @@
 - Nginx event-driven / async I/O 구조를 활용해 ML REST API와 MySQL을 연동한 고성능 ML‑WAF.
 - ML 모델 개발 (LSTM / TF-IDF + SVM / CNN 기반 모델 개발 및 평가) 및 AWS 배포 담당.
 - 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 실시간 공격 타입 분류 모델(다중 분류) 개발.   
-- AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을 컨테이너화한 ML‑WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.      
-- (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여 Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.        
+- AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을   
+  컨테이너화한 ML‑WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.         
+- (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여  
+  Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.         
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker  
 - 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
