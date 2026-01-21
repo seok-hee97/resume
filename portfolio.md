@@ -1,8 +1,6 @@
 ## **장석희 (Seokhee Chang)**  
 ## **Portfolio**
 
-***
-
 ### **CONTACT**
 - **Email**: <cycloevan97@gmail.com>  
 - **GitHub**: <https://github.com/seok-hee97>  
@@ -23,7 +21,7 @@
 - BERT 기반 어셈블리 코드 의미 분석을 활용한 랜섬웨어 패밀리 분류 시스템 설계 및 구현 
 - 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT 파인튜닝 → PE-Level 집계 
 - 함수 레벨 F1-Score 92% 달성, 파일 레벨 정확도 88% 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 패밀리 탐지)
-- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 `[addr]`, `[const]`, `[str]`로 정규화하여 모델의 행위 패턴 학습 강화 
+- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화 
 - Weighted Cross-Entropy Loss 적용으로 클래스 불균형 문제 해소 및 소수 패밀리 탐지 성능 개선 
 - Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone, NLP (Assembly Code)
 
@@ -96,15 +94,3 @@
 - (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 5-6개로 92% 감소, 분류 정확도 +3%p 향상.      
 - 위상수학 Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity)의 알고리즘 개발.      
 - Skills : Python, Mathematics (Topology), Feature Engineering, Scikit-learn             
-
----
-
-### **정상 (Gray) 샘플 자동 수집 시스템 개발 (설치자동화 & 샘플조회시스템)**
-> 1인 (INCA Internet) | 2024.10, 2025.05 - 2025.06
-- 그레이 샘플 (Whitelist, 학습 데이터 활용) 구축을 위한 인스톨러 자동 설치 및 PE 파일 수집 시스템 설계·구현.         
-- 설치자동화 시스템 : 16종 인스톨러 타입(Inno Setup, NSIS, MSI 등) 자동 설치 파이프라인 구현,         
-  3단계(7-Zip 압축해제 → Silent Mode 실행 → PyWinAuto GUI 자동화) | 테스트 결과 517 / 587 (87%) 자동 수집률 달성.    
-- 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.        
-- 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터(MD5, 등록일자, 파일경로 등) 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.       
-- VMware 가상환경 공유폴더 연동으로 호스트-게스트 간 파일 동기화 및 격리된 설치 환경 구성.       
-- Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL       
