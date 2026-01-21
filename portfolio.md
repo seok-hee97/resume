@@ -23,7 +23,7 @@
 - 함수 레벨 F1-Score 92% 달성, 파일 레벨 정확도 88% 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 패밀리 탐지)
 - 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화 
 - Weighted Cross-Entropy Loss 적용으로 클래스 불균형 문제 해소 및 소수 패밀리 탐지 성능 개선 
-- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone, NLP (Assembly Code)
+- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone
 
 ***
 
@@ -105,4 +105,4 @@
 - 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.
 - 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터(MD5, 등록일자, 파일경로) 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
 - VMware 가상환경 공유폴더 연동으로 호스트-게스트 간 파일 동기화 및 격리된 설치 환경 구성.
-- Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, SQLite, 7-Zip API, PE Parsing, 자동화 스크립팅, 가상환경 관리
+- Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL
