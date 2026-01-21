@@ -34,12 +34,12 @@
 - Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
 - 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)       
-- Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama
+- Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama, QLoRA
 - 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
 
 ***
 
-### **악성코드 탐지 모델 개발 및. 성능 개선**
+### **악성코드 탐지 모델 개발 및 성능 개선**
 > 1인 (INCA Internet) | 2024.12 - 2025.03
 - 악성코드 탐지 관련 DNN 기반 논문 리뷰 세미나 진행 및 모델 설계·구현.    
 - EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.      
@@ -94,3 +94,15 @@
 - (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 5-6개로 92% 감소, 분류 정확도 +3%p 향상.      
 - 위상수학 Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity)의 알고리즘 개발.      
 - Skills : Python, Mathematics (Topology), Feature Engineering, Scikit-learn             
+
+***
+
+### **정상 (Gray) 샘플 자동 수집 시스템 개발 (설치자동화 & 샘플조회시스템)**
+> 1인 (INCA Internet) | 2024.10, 2025.05 - 2025.06
+- 그레이 샘플 (White-list, 학습용 데이터) 구축을 위한 인스톨러 자동 설치 및 PE 파일 수집 시스템 설계·구현.
+- 설치자동화 시스템 : 16종 인스톨러 타입(Inno Setup, NSIS, MSI 등) 자동 설치 파이프라인 구현,
+  3단계 전략(7-Zip 압축해제 → Silent Mode 실행 → PyWinAuto GUI 자동화) 587개 샘플 중 516개(87%) 자동 수집률 달성.
+- 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.
+- 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터(MD5, 등록일자, 파일경로) 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
+- VMware 가상환경 공유폴더 연동으로 호스트-게스트 간 파일 동기화 및 격리된 설치 환경 구성.
+- Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, SQLite, 7-Zip API, PE Parsing, 자동화 스크립팅, 가상환경 관리
