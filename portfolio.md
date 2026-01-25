@@ -56,7 +56,7 @@
   MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)         
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.    
   Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.   
-- Skill : PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
+- Skills : PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
 - 링크: [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
