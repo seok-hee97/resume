@@ -36,7 +36,7 @@
 - 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)       
 - Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama, QLoRA
-- 링크 : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
+- Link : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
 
 ***
 
@@ -58,7 +58,7 @@
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.    
   Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.   
 - Skills : PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
-- 링크: [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
+- Link : [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
 
@@ -72,7 +72,7 @@
 - (KISA)사이버보안 AI/빅데이터 챌린지 A‑트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여  
   Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.         
 - Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker  
-- 링크 : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
+- Link : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
 
 ***
 
@@ -83,7 +83,7 @@
   (악성코드 탐지) 수학적 모델링 알고리즘(ML 기반 유사도 알고리즘) + 로직 기반 탐지 알고리즘 적용.               
 - 시스템 최적화(34개 확장자 불필요 파일 (경로) 삭제), 격리소 관리(복원/치료), 실시간 보호 기능 구현 개발.          
 - Skills : Python, PyQt (GUI), SQL, Inno Setup, ML, Scikit-learn   
-- 링크 : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
+- Link : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
 
 ***
 
@@ -105,5 +105,4 @@
   3단계 전략(7-Zip 압축해제 → Silent Mode 실행 → PyWinAuto GUI 자동화) 587개 샘플 중 516개(87%) 자동 수집률 달성.
 - 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.
 - 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
-- VMware 가상환경 공유폴더 연동으로 호스트-게스트 간 파일 동기화 및 격리된 설치 환경 구성.
 - Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL
