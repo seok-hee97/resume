@@ -30,7 +30,8 @@
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
 > 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
-- 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
+- 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search   
+   →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
 - Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
 - 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)       
@@ -100,9 +101,9 @@
 ### **정상 (Gray) 샘플 자동 수집 시스템 개발 (설치자동화 & 샘플조회시스템)**
 > 1인 (INCA Internet) | 2024.10, 2025.05 - 2025.06
 - 그레이 샘플 (White-list, 학습용 데이터) 구축을 위한 인스톨러 자동 설치 및 PE 파일 수집 시스템 설계·구현.
-- 설치자동화 시스템 : 16종 인스톨러 타입(Inno Setup, NSIS, MSI 등) 자동 설치 파이프라인 구현,
+- 설치자동화 시스템 : 16종 인스톨러 타입(Inno Setup, NSIS, MSI 등) 자동 설치 파이프라인 구현,     
   3단계 전략(7-Zip 압축해제 → Silent Mode 실행 → PyWinAuto GUI 자동화) 587개 샘플 중 516개(87%) 자동 수집률 달성.
 - 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.
-- 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터(MD5, 등록일자, 파일경로) 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
+- 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
 - VMware 가상환경 공유폴더 연동으로 호스트-게스트 간 파일 동기화 및 격리된 설치 환경 구성.
 - Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL
