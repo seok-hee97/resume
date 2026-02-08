@@ -9,7 +9,7 @@
 
 ### **Core Skills**:  
 - **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
-- **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark  
+- **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark, Transformers  
 - **Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
 
 ## **PROJECTS**
@@ -30,7 +30,7 @@
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
 > 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
-- 시스템 구성 : On-device Model (취약점 종류 탐지(Severnity)) → RAG 기반 CVE database (vectorized) similarity search →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
+- 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
 - Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
 - 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)       
@@ -81,7 +81,7 @@
 - 빠른검사 (취약 영역 중점) / 정밀검사 (사용자 선택 영역) / 스마트 검사 (스캔 + 최적화) 검사 기능 개발.              
   (악성코드 탐지) 수학적 모델링 알고리즘(ML 기반 유사도 알고리즘) + 로직 기반 탐지 알고리즘 적용.               
 - 시스템 최적화(34개 확장자 불필요 파일 (경로) 삭제), 격리소 관리(복원/치료), 실시간 보호 기능 구현 개발.          
-- Skills : Python, PyQt (GUI), SQL, Inoo Setup, ML    
+- Skills : Python, PyQt (GUI), SQL, Inno Setup, ML, Scikit-learn   
 - 링크 : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
 
 ***
