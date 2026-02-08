@@ -1,15 +1,20 @@
 # **장석희 (Seokhee Chang)**
+
 ## **Contact**
-- Mail: <cycloevan97@gmail.com>
-- Github : <https://github.com/seok-hee97>
-- LinkedIn : <https://www.linkedin.com/in/seokhee-chang97/>
-- HuggingFace : <https://huggingface.co/cycloevan>
-- Portfoilo : [Link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+- **Email**: <cycloevan97@gmail.com>  
+- **GitHub**: <https://github.com/seok-hee97>  
+- **LinkedIn**: <https://www.linkedin.com/in/seokhee-chang97/>  
+- **Hugging Face**: <https://huggingface.co/cycloevan>
+- **Portfoilo**: [Link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+
+***
 
 ## **Core Skills**:  
 - **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
 - **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark, Transformers  
 - **Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
+
+***
 
 ## **Military**
 - 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대  | 특기: 보급(Logistics)
@@ -22,12 +27,14 @@
 - 2024.07 ~ 2024.10 | GOOGLE | GOOGLE ML BOOTCAMP 5기 | 수료
 - 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료 (우수상 수상)
 
+***
+
 ## **Career**    
-#### **INCA-Internet (잉카인터넷)**
+### **INCA Internet (잉카인터넷)**
 (Seoul, Republic of Korea)  
 (2024.07 ~ present)  
-(소속: ISARC / 직급: 사원)
-담당업무: 업무자동화 개발 / ML 연구
+(소속: ISARC / 직급: 사원)     
+담당업무: 업무자동화 개발 / ML 연구      
 - ML 엔진 운영 및 성능 개선
   - 악성코드 탐지 모델 운영 및 성능 최적화 수행 (랜섬웨어, 스틸러, 웜, 뱅커)
   - 대규모 악성코드 데이터셋 구축
@@ -44,11 +51,11 @@
   - 인스톨러 파일 설치자동화 프로그램 개발 (그레이 샘플 확보 목적)
   - 패턴업데이트 자동화 프로세스 개발
 
-#### **Four-Chains (포체인스)**
+### **Four-Chains (포체인스)**
 (Goyang-si, Gyeonggi-do, Republic of Korea)  
 (2021.11 ~ 2023.03)   
-(소속: 개발 2부 / 직급: 사원) 
-담당업무: 안티바이러스 개발 / ML 연구  
+(소속: 개발 2부 / 직급: 사원)     
+담당업무: 안티바이러스 개발 / ML 연구   
 - Topology(위상수학) 기반 특징 선택(Feature Selection) 알고리즘 연구
   - 악성코드/정상 데이터 수집 및 특징 추출 (PE header 기반)
   - Topology 기반 Feature Selection 알고리즘 구현
@@ -60,6 +67,8 @@
   - 안티바이러스 프로그램 개발 (빠른 검사, 스마트 검사, PC 최적화, 격리소)
   - 악성코드 패턴 생성 및 개발
   - 자사 악성코드 탐지 알고리즘 개발 및 연동
+
+***
 
 ## **Certifications**
  - 유통관리사 2급
