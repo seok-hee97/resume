@@ -6,12 +6,17 @@
 - LinkedIn: <https://www.linkedin.com/in/seokhee-chang97/>
 - HuggingFace: <https://huggingface.co/cycloevan>
 - Portfoilo : [Link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
-  
+
+## **Core Skills**:  
+- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
+- **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark, Transformers  
+- **Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
+
 ## **Military Service**
 - 2017.01.09 ~ 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
 
 ## **Education**
-- 2016.03 ~ 2023.02 | Kangnam University | Bachelor's Degree in Industrial and Management Engineering / Software Engineering (Double Major)
+- 2016.03 ~ 2023.02 | Kangnam University | Bachelor's Degree (Industrial Engineering / Software Engineering)
 - 2023.04 ~ 2023.12 | KISIA | SDEV (S-Developer) 1th | Completed
 - 2023.11.13 ~ 2023.12.08 | KISIA | Cloud Security | Completed
 - 2023.10.27 ~ 2023.11.16 | KISIA | Malware Analysis and Technology Trends Using AI | Completed
@@ -24,19 +29,17 @@
 ### **INCA Internet**
 (Seoul, Republic of Korea)  
 (2024.07 ~ Present)  
-(Department: ISARC / Position: Python Developer)  
-Responsibilities: Automation Development / ML Research
+(Department: ISARC / Position: AI Developer)  
+#Description : ML Research / Automation Development
 
 - ML Engine Operation and Performance Improvement
   - Operated and optimized malware detection models (ransomware, stealer, worm, banker)
   - Built large-scale malware datasets
   - Applied calibration to improve ML model class imbalance
   - Monitored ML engine issues and implemented exception handling
-
 - Ransomware Similarity Detection Research (Ongoing)
   - Researched Siamese Neural Network-based ransomware classification model
   - Researched deep learning-based malware generic detection methods
-
 - Response Operations (Ongoing)
   - Threat detection response and dynamic malware analysis for company solutions
   - Response report writing
@@ -55,20 +58,15 @@ Responsibilities: Antivirus Development / ML Research
   - Collected malware/benign data and extracted features (PE header-based)
   - Implemented topology-based feature selection algorithm
   - Applied algorithm and performed ML modeling
-
 - Malware Grayscale Image-Based Detection Research
   - Collected malware/benign data and converted to grayscale images
   - CNN-based ML modeling and improvement
-
 - Probe AntiVirus Program Development
   - Developed antivirus program (quick scan, smart scan, PC optimization, quarantine)
   - Generated and developed malware patterns
   - Developed and integrated proprietary malware detection algorithm
 
-## **Skills**
-- Language: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Hive, Bash
-- Library: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark
-- Tool: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation, Athena), Git, Slack, Discord
+
 
 ## **Certifications**    
 - Distribution Management (Level 2)  
