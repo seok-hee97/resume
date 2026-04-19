@@ -16,50 +16,46 @@
 
 ***
 
-### **랜섬웨어 유사도 연구**
-> 1인 (INCA Internet) | 2025.10, 11, 2026.01
-- BERT 기반 어셈블리 코드 의미 분석을 활용한 랜섬웨어 패밀리 분류 시스템 설계 및 구현 
-- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT 파인튜닝 → PE-Level 집계 
-- 함수 레벨 F1-Score 92% 달성, 파일 레벨 정확도 88% 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 패밀리 탐지)
-- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화 
-- Weighted Cross-Entropy Loss 적용으로 클래스 불균형 문제 해소 및 소수 패밀리 탐지 성능 개선 
+### **BERT 기반 랜섬웨어 분류 시스템**
+> 1인 (INCA Internet) | 2025.11 - 2026.01
+- BERT 기반 어셈블리 코드 의미 분석을 활용한 랜섬웨어 분류 시스템 설계 및 구현
+- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT 파인튜닝 → PE-Level 집계
+- 이진분류 (랜섬웨어 vs 정상) 테스트 결과 Accuracy 91.64% / F1-Score 0.95 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함)
+- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화
+- Weighted Cross-Entropy Loss 적용으로 클래스 불균형 문제 해소 및 소수 클래스 탐지 성능 개선
 - Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone
 
 ***
 
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
-> 5인 (Team LlamaGurad / Meta Llama Academy 1th) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (Team LlamaGuard / Meta Llama Academy 1기) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
-- 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search   
+- 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search
    →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
-- Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
-- 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.       
-  (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)       
-- Skills : Python, ​PyTorch, Transformers, LangChain, FAISS​, Llama, QLoRA
+- Llama-3.2-1B 모델을 fine-tuning (**QLoRA**) 후 **GGUF 변환 + Llama.cpp 빌드로 경량화**, On-device 환경에서 실시간 추론 구현.
+- 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.
+  (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)
+- Skills : Python, PyTorch, Transformers, **LangGraph**, LangChain, FAISS, sentence-transformers, Llama, **QLoRA, GGUF, Llama.cpp**
 - Links : [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
-
 ***
 
-### **악성코드 탐지 모델 개발 및 성능 개선**
+### **EMBER 기반 악성코드 탐지 모델 개발 및 성능 개선**
 > 1인 (INCA Internet) | 2024.12 - 2025.03
-- 악성코드 탐지 관련 DNN 기반 논문 리뷰 세미나 진행 및 모델 설계·구현.    
-- EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.      
-  .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p향상)       
-- 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.        
-- Skills: Python, Tensorflow, DNN, Feature Engineering, Calibration(Focal Loss, Isotonic)  
+- 악성코드 탐지 관련 EMBER 기반 논문 리뷰 세미나 진행 및 모델 설계 및 구현.
+- EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.
+  .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p 향상)
+- 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.
+- Skills: Python, TensorFlow, DNN, Feature Engineering, Calibration(Focal Loss, Isotonic)
 
 ***
 
-### **Google ML Bootcamp**
-> 1인 (Google ML Bootcamp 5th) | 2024.07 - 2024.10
-- (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
-- (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 5% 달성.    
-  MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)         
-- (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.    
-  Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.   
-- Skills : PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
-- Link : [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
-
+### **GDPR Compliance Q&A Assistant (Gemma-2-2B DPO 파인튜닝)**
+> 1인 (Google ML Bootcamp 5기 / Gemma Sprint Project) | 2024.07 - 2024.10
+- GDPR Q&A 특화 Gemma-2-2B 파인튜닝 파이프라인 설계·구현 (SFT → Rejection Sampling → DPO).
+- 이중 평가 프레임워크 설계: 정량 n=100 + GPT-4o Judge 정성 n=50.
+- 실험 결과: Base 대비 SFT에서 최고 성능 개선 (ROUGE-L **+12%**, BLEU **+37%**, BertScore F1 **+1.3%**). DPO도 SFT 수준 유지.
+- Skills: Python, PyTorch, Transformers, QLoRA, DPO, Streamlit, Docker
+- Links: [HuggingFace Model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 ***
 
 ### **ML-WAF (+ KISA-AI-Challenge)**
