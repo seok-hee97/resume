@@ -1,17 +1,6 @@
 ## **장석희 (Seokhee Chang)**  
-## **Portfolio**
 
-### **CONTACT**
-- **Email**: <cycloevan97@gmail.com>  
-- **GitHub**: <https://github.com/seok-hee97>  
-- **LinkedIn**: <https://www.linkedin.com/in/seokhee-chang97/>  
-- **Hugging Face**: <https://huggingface.co/cycloevan>
-
-### **Core Skills**:  
-- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
-- **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark, Transformers  
-- **Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
-
+## **PORTFOLIO**
 ## **PROJECTS**
 
 ***
