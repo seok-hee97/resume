@@ -7,3 +7,4 @@ AGENTS.md
 work/
 *.backup
 apply/
+.claude/
