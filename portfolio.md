@@ -12,7 +12,7 @@
 - 이진분류 (랜섬웨어 vs 정상) 테스트 결과 Accuracy 91.64% / F1-Score 0.95 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함)
 - 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화
 - Weighted Cross-Entropy Loss 적용으로 클래스 불균형 문제 해소 및 소수 클래스 탐지 성능 개선
-- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone
+- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone, Ghdira
 
 ***
 
@@ -34,7 +34,7 @@
 - EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.
   .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p 향상)
 - 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.
-- Skills: Python, TensorFlow, DNN, Feature Engineering, Calibration(Focal Loss, Isotonic)
+- Skills: Python, TensorFlow, DNN, TabNet, lightGBM, Feature Engineering, Calibration(Focal Loss, Isotonic)
 
 ***
 
