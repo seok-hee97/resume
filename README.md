@@ -18,7 +18,7 @@
 
 ## **EXPERIENCE**
 
-### **AI Developer** | INCA Internet *(1년 10개월)*
+### **AI Developer** | INCA Internet | ISARC *(1년 10개월)*
 *Seoul, South Korea | 2024.07 - Present*
 담당업무: ML 연구 / 업무자동화 개발
 - **BERT 기반 랜섬웨어 분류 시스템 개발** (이진분류 F1-Score 0.95 달성)
@@ -29,7 +29,7 @@
 
 ***
 
-### **Research Engineer** | Four-Chains *(1년 5개월)*
+### **Research Engineer** | Four-Chains | 개발 2부 *(1년 5개월)*
 *Goyang-si, South Korea | 2021.11 - 2023.03*
 담당업무: 안티바이러스 개발 / ML 연구
 - **(악성코드 탐지) 위상수학(Topology) 기반 Feature Selection 알고리즘 연구개발**
