@@ -1,6 +1,18 @@
-## **장석희 (Seokhee Chang)**  
+# 장석희 (Seokhee Chang)
 
-## **PORTFOLIO**
+- AI Developer · ML Researcher · Malware Analyst
+- Email: cycloevan97@gmail.com | GitHub: [seok-hee97](https://github.com/seok-hee97)
+
+## **Core Skills**
+
+- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash, Lua
+- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, LightGBM, TabNet, Transformers, Pandas, NumPy, PySpark, Feature Engineering, Calibration (Focal Loss, Isotonic)
+- **LLM / NLP**: HuggingFace Transformers, BERT, Llama, Gemma, LangChain, LangGraph, FAISS, sentence-transformers, Fine-tuning (QLoRA, DPO, SFT), GGUF / Llama.cpp (On-device)
+- **Security / Reverse Engineering**: PE Analysis, Static/Dynamic Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox, VirusTotal, MalwareBazaar, EMBER, Malware Detection, Threat Intelligence
+- **Web / Application**: Django, Flask, PyQt, Streamlit, Nginx
+- **Automation / System**: PyWinAuto, Watchdog, APScheduler, Inno Setup, Docker
+- **Cloud / DevOps**: AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Docker, Git
+
 ## **PROJECTS**
 
 ***
@@ -91,3 +103,12 @@
 - 파일시스템 실시간 모니터링(Watchdog) 기반 설치 프로세스 추적 및 생성된 PE 파일 자동 분류·검증 로직 구현.
 - 샘플조회시스템 : Django 기반 웹 대시보드 구축 → 수집된 샘플 메타데이터 관리 및 업로드/다운로드 기능 구현, APScheduler로 배치 작업 스케줄링.
 - Skills: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL
+
+***
+
+### **위협 탐지·대응 및 ML 엔진 운영 (상시 업무)**
+> INCA Internet | 2024.07 - Present
+- **ML 엔진 운영**: 사내 ML 탐지 엔진 오탐 예외 처리, 샘플 수집·반영 및 모델 성능 테스트.
+- **위협 탐지·대응**: 패턴/엔진 업데이트, 솔루션 로그 분석, 내·외부 분석 요청 처리 (KISA / NCSC / VB100 / 해외 오진 등).
+- **악성코드 분석 / 인텔리전스**: 정적·동적 분석, CAPE 진단 룰 등록, APT 그룹·악성코드군 분석 및 IOC 정리, 동향·취약점 보고서 작성.
+- Skills: Static/Dynamic Analysis, IDA, YARA, CAPE, VirusTotal, Threat Intelligence, ML Model Operations
