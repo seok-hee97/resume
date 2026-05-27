@@ -9,10 +9,15 @@
 
 ***
 
-## **Core Skills**:  
-- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash  
-- **Libraries & Frameworks**: PyQt, Scikit-Learn, PyTorch, TensorFlow, Pandas, NumPy, Django, Flask, PySpark, Transformers  
-- **Tools & Platforms**: Docker, AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Git
+
+## **Core Skills**
+- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash, Lua
+- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, LightGBM, TabNet, Transformers, Pandas, NumPy, PySpark, Feature Engineering, Calibration (Focal Loss, Isotonic)
+- **LLM / NLP**: HuggingFace Transformers, BERT, Llama, Gemma, LangChain, LangGraph, FAISS, sentence-transformers, Fine-tuning (QLoRA, DPO, SFT), GGUF / Llama.cpp (On-device)
+- **Security / Reverse Engineering**: PE Analysis, Static/Dynamic Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox, VirusTotal, MalwareBazaar, EMBER, Malware Detection, Threat Intelligence
+- **Web / Application**: Django, Flask, PyQt, Streamlit, Nginx
+- **Automation / System**: PyWinAuto, Watchdog, APScheduler, Inno Setup, Docker
+- **Cloud / DevOps**: AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Docker, Git
 
 ***
 
