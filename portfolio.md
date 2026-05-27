@@ -1,6 +1,5 @@
-# 장석희 (Seokhee Chang)
+# **장석희 (Seokhee Chang)**
 
-- AI Developer · ML Researcher · Malware Analyst
 - Email: cycloevan97@gmail.com | GitHub: [seok-hee97](https://github.com/seok-hee97)
 
 ## **Core Skills**
