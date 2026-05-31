@@ -9,23 +9,23 @@
 
 ***
 
-
 ## **Core Skills**
 - **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash, Lua
-- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, LightGBM, TabNet, Transformers, Pandas, NumPy, PySpark, Feature Engineering, Calibration (Focal Loss, Isotonic)
-- **LLM / NLP**: HuggingFace Transformers, BERT, Llama, Gemma, LangChain, LangGraph, FAISS, sentence-transformers, Fine-tuning (QLoRA, DPO, SFT), GGUF / Llama.cpp (On-device)
-- **Security / Reverse Engineering**: PE Analysis, Static/Dynamic Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox, VirusTotal, MalwareBazaar, EMBER, Malware Detection, Threat Intelligence
+- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, LightGBM, TabNet, Transformers, Pandas, NumPy, PySpark, Feature Engineering
+- **LLM / NLP**: HuggingFace Transformers, BERT, Llama, Gemma, LangChain, LangGraph, FAISS, Fine-tuning (QLoRA, DPO, SFT), GGUF / Llama.cpp
+- **Security / Reverse Engineering**: PE Analysis, Static/Dynamic Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox
 - **Web / Application**: Django, Flask, PyQt, Streamlit, Nginx
 - **Automation / System**: PyWinAuto, Watchdog, APScheduler, Inno Setup, Docker
 - **Cloud / DevOps**: AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Docker, Git
 
 ***
 
-## **EXPERIENCE**
+## **EXPERIENCE (3년)**
 
 ### **AI Developer** | INCA Internet | ISARC *(1년 10개월)*
 *Seoul, South Korea | 2024.07 - Present*
 담당업무: ML 연구 / 업무자동화 개발
+- **VT 메타데이터 검색 시스템 개발** (사내 VirusTotal 대체, FastAPI + React + Elasticsearch, 일 10-15만 건 처리)
 - **BERT 기반 랜섬웨어 분류 시스템 개발** (이진분류 F1-Score 0.95 달성)
 - **EMBER 기반 악성코드 탐지 모델 설계 및 구현**, .NET PE 파싱 로직 개선으로 feature 결손 해결 (성능 2%p 향상)
 - **악성코드 350-400만 데이터셋 구축** 및 Calibration(Focal Loss, Isotonic 등) 기법 적용으로 신뢰도 개선
