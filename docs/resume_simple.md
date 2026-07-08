@@ -31,7 +31,7 @@
 
 ## **EXPERIENCE**
 ### **AI Developer** | INCA Internet
-*Seoul, South Korea | 2024.07 - Present*
+*Seoul, South Korea | 2024.07 - 2026.06*
 **Responsibilities**: ML 연구 & 업무자동화 개발
 - 최신 논문 분석을 통한 EMBER 기반 악성코드 탐지 모델 설계 및 구현
 - .NET PE 파싱 로직 개선으로 feature 결손 해결, 모델 성능 2%p 향상

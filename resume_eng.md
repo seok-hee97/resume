@@ -23,7 +23,7 @@
 ## **Experience (3 Years)**
 
 ### **AI Developer** | INCA Internet | ISARC *(1 Year 10 Months)*
-*Seoul, South Korea | 2024.07 – Present*
+*Seoul, South Korea | 2024.07 – 2026.06*
 Responsibilities: ML Research / Automation Development
 - **Developed VT Metadata Search System** (In-house VirusTotal replacement, FastAPI + React + Elasticsearch, processing 100K–150K records/day)
 - **Developed BERT-based Ransomware Classification System** (Binary classification F1-Score 0.95)
