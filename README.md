@@ -22,8 +22,8 @@
 
 ## **EXPERIENCE (3년)**
 
-### **AI Developer** | INCA Internet | ISARC *(1년 10개월)*
-*Seoul, South Korea | 2024.07 - Present*
+### **AI Developer** | INCA Internet | ISARC *(1년 11개월)*
+*Seoul, South Korea | 2024.07 - 2026.06*
 담당업무: ML 연구 / 업무자동화 개발
 - **VT 메타데이터 검색 시스템 개발** (사내 VirusTotal 대체, FastAPI + React + Elasticsearch, 일 10-15만 건 처리)
 - **BERT 기반 랜섬웨어 분류 시스템 개발** (이진분류 F1-Score 0.95 달성)
