@@ -1,19 +1,20 @@
-## **장석희 (Seokhee Chang)**  
+## **장석희 (Seokhee Chang)**
 
 ## **PORTFOLIO**
 ## **PROJECTS**
 
 ***
 
-### **Ransomware Similarity Research**
-> Solo Project (INCA Internet) | Oct 2025, Nov 2025, Jan 2026
+### **BERT-Based Ransomware Analysis & Classification System**
+> Solo Project (INCA Internet) | Nov 2025 - Jan 2026
 
-- Designed and implemented a ransomware family classification system utilizing BERT-based assembly code semantic analysis.
+- Contributed to the AI analysis model track of an R&D project, `sLLM-based ransomware analysis technology and real-time blocking/backup solution development`.
+- Designed and implemented an assembly-code semantic analysis system for ransomware analysis service and real-time blocking/backup solution R&D.
 - **Core Technology Pipeline**: PE file → Function-level disassembly → Assembly normalization → Custom WordPiece tokenizer training → BERT fine-tuning → PE-level aggregation.
-- Achieved **92% F1-Score** at the function level and **88% accuracy** at the file level (detected major families including WannaCry, Petya, and LockBit).
+- Achieved **91.64% Accuracy / 0.95 F1-Score** on binary classification (ransomware vs benign) and **0.93 F1-Score** on recoverability binary classification, including major ransomware families such as WannaCry, Petya, and LockBit.
 - Applied assembly instruction normalization strategy: Normalized addresses, constants, and strings to `[addr]`, `[const]`, and `[str]` tokens to enhance the model's behavioral pattern learning.
-- Implemented **Weighted Cross-Entropy Loss** to resolve class imbalance issues and improve detection performance for minority families.
-- **Skills**: Python, PyTorch, Transformers, BERT, Angr, Capstone
+- Training strategy: **Weighted Cross-Entropy Loss** for ransomware-vs-benign classification (class imbalance), and a **SupCon (contrastive) + BCE dual loss** for recoverability classification.
+- **Skills**: Python, PyTorch, Transformers, BERT, Angr, Capstone, Ghidra
 
 ***
 
@@ -30,28 +31,28 @@
 
 ***
 
-### **Malware Detection Model Development & Performance Improvement**
+### **TTSC In-house Malware Detection System Operation & EMBER Model Improvement**
 > Solo Project (INCA Internet) | Dec 2024 - Mar 2025
 
-- Conducted seminars on DNN-based malware detection papers and designed/implemented detection models.
+- Operated and improved the TTSC in-house malware detection system, designing and implementing EMBER-based malware detection models.
+- Conducted seminars on EMBER-based malware detection papers and established PE feature-based modeling strategy.
 - Improved .NET and PE parsing logic based on EMBER feature extraction methodology and developed a custom feature extraction pipeline.
   - Resolved feature deficiency in .NET files (10% of data had >50% feature loss) by parsing ImplMap/TypeRef tables to supplement Import Function features (**2%p performance improvement**).
+- Extracted and processed PE features from benign and ransomware samples, then trained and evaluated DNN-based ransomware detection models.
 - Built a training dataset by collecting and preprocessing approximately **3.5–4 million** internal malware/benign samples.
 - Improved model reliability by applying calibration techniques such as **Focal Loss** and **Isotonic Calibration**.
-- **Skills**: Python, TensorFlow, DNN, Feature Engineering, Calibration (Focal Loss, Isotonic)
+- **Skills**: Python, TensorFlow, DNN, TabNet, LightGBM, Feature Engineering, Calibration (Focal Loss, Isotonic)
 
 ***
 
-### **Google ML Bootcamp**
-> Solo Project (Google ML Bootcamp 5th) | July 2024 - Oct 2024
+### **GDPR Compliance Q&A Assistant (Gemma-2-2B DPO Fine-tuning)**
+> Solo Project (Google ML Bootcamp 5th / Gemma Sprint Project) | July 2024 - Oct 2024
 
-- Completed Coursera Deep Learning Specialization and participated in study groups.
-- **Kaggle Competition**: *Binary Prediction of Poisonous Mushrooms* – Achieved **Top 5%**.
-  - **MCC Score: 0.98502** (Rank: 76/2,422, **Top 3.1%**) | Utilized feature engineering, XGBoost, and LightGBM.
-- **Gemma Sprint Project**: Developed a GDPR compliance Q&A assistant.
-  - Fine-tuned **Gemma-2-2B model** using **Direct Preference Optimization (DPO)** methodology.
-- **Skills**: PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
-- **Link**: [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
+- Designed and implemented a GDPR Q&A-specialized Gemma-2-2B fine-tuning pipeline (SFT → Rejection Sampling → DPO).
+- Designed a dual evaluation framework: quantitative (n=100) + GPT-4o Judge qualitative (n=50).
+- **Results**: SFT delivered the largest improvement over the base model (ROUGE-L **+12%**, BLEU **+37%**, BertScore F1 **+1.3%**); DPO maintained SFT-level performance.
+- **Skills**: Python, PyTorch, Transformers, QLoRA, DPO, Streamlit, Docker
+- **Links**: [HuggingFace Model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
 
@@ -87,18 +88,6 @@
 - Designed and implemented a Feature Selection algorithm based on Metric Space theory.
   - Prior Research: 'Analysis method for Data similarity measure in Metric Space'.
 - **Algorithm**: Map features to **Topological Space** → Generate **Open Balls** → Calculate weight for each Ball → Select central features.
-- **Malware Detection Application**: Reduced feature count by **92% (69 → 6)** while improving classification accuracy by **3%p**.
+- **Malware Detection Application**: Reduced feature count by **91% (69 → 6)** while improving classification accuracy by **3%p**.
 - Led seminars on Topology mathematics and developed algorithms based on mathematical concepts (Metric Space, Open Ball, Continuity).
 - **Skills**: Python, Mathematics (Topology), Feature Engineering, Scikit-learn
-
-***
-
-### **Gray Sample Automated Collection System (Auto-Installation & Query System)**
-> Solo Project (INCA Internet) | Oct 2024, May 2025 - June 2025
-
-- Designed and implemented an automated installer execution and PE file collection system to build a gray sample (white-list/training data) dataset.
-- **Auto-Installation System**: Implemented automated installation pipelines for **16 installer types** (Inno Setup, NSIS, MSI, etc.).
-  - Applied a 3-step strategy (7-Zip extraction → Silent Mode execution → PyWinAuto GUI automation) achieving an **87% automatic collection rate** (516 out of 587 samples).
-- Implemented installation process tracking based on file system real-time monitoring (**Watchdog**) and automated classification/verification logic for generated PE files.
-- **Sample Query System**: Built a Django-based web dashboard to manage collected sample metadata (MD5, registration date, file path) and implemented upload/download functions; scheduled batch jobs using **APScheduler**.
-- **Skills**: Python, Django, PyWinAuto, Watchdog, APScheduler, MySQL
