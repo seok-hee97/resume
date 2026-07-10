@@ -10,27 +10,25 @@
 ***
 
 ## **Core Skills**
-- **Languages**: Python, C, C++, SQL (MySQL, PostgreSQL, MongoDB), Bash, Lua
-- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, LightGBM, TabNet, Transformers, Pandas, NumPy, PySpark, Feature Engineering, Calibration (Focal Loss, Isotonic)
-- **LLM / NLP**: HuggingFace Transformers, BERT, Llama, Gemma, LangChain, LangGraph, FAISS, sentence-transformers, Fine-tuning (QLoRA, DPO, SFT), GGUF / Llama.cpp (On-device)
-- **Security / Reverse Engineering**: PE Analysis, Static/Dynamic Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox, VirusTotal, MalwareBazaar, EMBER, Malware Detection, Threat Intelligence
-- **Web / Application**: Django, Flask, PyQt, Streamlit, Nginx
-- **Automation / System**: PyWinAuto, Watchdog, APScheduler, Inno Setup, Docker
-- **Cloud / DevOps**: AWS (S3, EC2, API Gateway, Lambda, SageMaker, CloudFormation), Docker, Git
+- **Languages**: Python, C/C++, SQL, Bash
+- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, PySpark
+- **LLM / NLP**: HuggingFace Transformers, BERT, Fine-tuning (SFT/DPO/QLoRA), LangChain/LangGraph, RAG, FAISS
+- **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox, EMBER
+- **Web / Serving**: FastAPI, Flask, Django, Streamlit
+- **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
 
 ***
 
 ## **Experience (3 Years)**
 
-### **AI Developer** | INCA Internet | ISARC *(1 Year 10 Months)*
+### **AI Developer** | INCA Internet | ISARC *(1 Year 11 Months)*
 *Seoul, South Korea | 2024.07 – 2026.06*
 Responsibilities: ML Research / Automation Development
-- **Developed VT Metadata Search System** (In-house VirusTotal replacement, FastAPI + React + Elasticsearch, processing 100K–150K records/day)
-- **Developed BERT-based Ransomware Classification System** (Binary classification F1-Score 0.95)
-- **Designed and implemented EMBER-based Malware Detection Model**, resolved feature deficiency by improving .NET PE parsing logic (2%p performance gain)
-- **Built malware dataset of 3.5–4M samples** and improved model reliability by applying calibration techniques (Focal Loss, Isotonic, etc.)
-- Built automated installer collection system for 16 installer types (87% collection rate), automating gray sample acquisition
-- **Threat detection and response** (internal/external analysis requests, static/dynamic analysis, solution log analysis, YARA/CAPE rule registration) and regular in-house seminars
+- **Developed BERT-based Ransomware Analysis & Classification System** (R&D project; binary classification 91.64% / F1-Score 0.95, recoverability F1-Score 0.93)
+- **Operated & improved the in-house malware detection service (TTSC)** — designed/implemented an EMBER-based detection model (.NET PE parsing +2%p), built a 3.5–4M-sample dataset, and improved reliability via calibration
+- **Developed VT Metadata Search System** (in-house VirusTotal replacement, 100K–150K records/day)
+- **Built an automated installer system for 16 types** (88% collection rate) for gray-sample acquisition
+- **Threat detection & response**: static/dynamic analysis, YARA/CAPE rule registration (ongoing)
 
 ***
 
@@ -38,7 +36,7 @@ Responsibilities: ML Research / Automation Development
 *Goyang-si, South Korea | 2021.11 – 2023.03*
 Responsibilities: Antivirus Development / ML Research
 - **R&D of Topology-based Feature Selection Algorithm for malware detection**
-- Applied to malware detection: reduced feature count by 92% (69→6) and improved accuracy by 3%p
+- Applied to malware detection: reduced feature count by 91% (69→6) and improved accuracy by 3%p
 - **Developed Probe Antivirus solution** including ML detection engine and real-time protection
 - Researched malware binary grayscale image conversion and CNN-based detection
 - Malware analysis, ML detection engine operation, and regular in-house seminars
