@@ -15,8 +15,8 @@
 ## **CORE SKILLS**:
 - **Languages**: Python, C/C++, SQL, Bash
 - **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, PySpark
-- **LLM / NLP**: HuggingFace Transformers, BERT, Fine-tuning (SFT/DPO/QLoRA), LangChain/LangGraph, RAG, FAISS
-- **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA, CAPE Sandbox, EMBER
+- **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
+- **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA
 - **Web / Serving**: FastAPI, Flask, Django, Streamlit
 - **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
 
