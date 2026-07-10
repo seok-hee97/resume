@@ -27,7 +27,7 @@
 - Trained on a public dataset (11 programming languages / 5,000 samples) and validated on a test set (500 samples) with 100-sample random sampling.
   - Performance Improvement: **ROUGE-L F1: 0.0933 → 0.1335 (+43.1%)** / **BLEU: 0.0061 → 0.0219 (+259%)**.
 - **Skills**: Python, PyTorch, Transformers, LangChain, FAISS, Llama, QLoRA
-- **Links**: [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
+- **Links**: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
 
 ***
 
