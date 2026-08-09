@@ -21,7 +21,7 @@
 - **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
 
 ## **EDUCATION**
-- 2016.03 ~ 2023.02 | 강남대학교 | 산업공학전공/소프트웨어전공(복수전공)| 학사 취득
+- 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공)| 학사 취득
 - 2023.04 ~ 2023.12 | KISIA | SDEV(S-개발자) 1기 | 교육 수료
 - 2023.11.13 ~ 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료
 - 2023.10.27 ~ 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료
@@ -56,10 +56,11 @@
 ### **BERT 기반 랜섬웨어 분석·분류 시스템**
 > 1인 (INCA Internet) | 2025.11 - 2026.01
 - BERT 기반 어셈블리 코드 의미 분석을 활용한 랜섬웨어 분석·분류 시스템 설계 및 구현
-- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT 파인튜닝 → PE-Level 집계
-- 이진분류 (랜섬웨어 vs 정상) Accuracy 91.64% / F1-Score 0.95 달성, 복호화 가능여부 이진분류 F1-Score 0.93 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함)
+- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 토크나이저·BERT 학습 → PE-Level 집계
 - 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화
-- 학습 전략 이원화: 랜섬웨어 vs 정상 분류는 Weighted Cross-Entropy Loss(클래스 불균형·소수 클래스 탐지 개선), 복호화 가능여부 판별은 SupCon(대조학습) + BCE 듀얼 로스로 학습
+- 1차 모델: BERT 파인튜닝 기반 랜섬웨어 vs 정상 이진분류, Weighted Cross-Entropy Loss(클래스 불균형 보정) 적용 — Accuracy 91.64% / F1-Score 0.95 달성
+- 2차 고도화: 어셈블리 전용 커스텀 토크나이저 학습 및 BERT MLM 사전학습 수행, 복호화 가능여부 이진분류 F1-Score 0.93 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함)
+- 별도 유사도 학습 트랙: Siamese 구조 + SupCon·BCE 결합 손실(joint loss) 적용
 - Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone
 
 ***
@@ -90,7 +91,7 @@
 ### **Google ML Bootcamp**
 > 1인 (Google ML Bootcamp 5th) | 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
-- (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 5% 달성.
+- (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 3.1% 달성.
   MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
 - (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.
   Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.
