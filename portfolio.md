@@ -44,10 +44,10 @@
 - TTSC 사내 악성코드 탐지 시스템 운영 및 개선 업무를 수행하며, EMBER 기반 탐지 모델 설계·구현.
 - 악성코드 탐지 관련 EMBER 기반 논문 리뷰 세미나 진행 및 PE feature 기반 모델링 전략 수립.
 - EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.
-  .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p 향상)
-- 랜섬웨어 탐지 모델 개발을 위해 정상/랜섬웨어 PE feature를 추출·가공하고 DNN 기반 분류 모델 학습 및 성능 검증 수행.
+  .NET 파일에서 Import Function 특징 결손 확인 → ImplMap/TypeRef 테이블 파싱으로 보완 (성능 2%p 향상)
+- 랜섬웨어 탐지 모델 개발을 위해 정상/랜섬웨어 PE feature를 추출·가공하고 분류 모델 학습 및 검증 수행.
 - 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.
-- Skills: Python, TensorFlow, DNN, TabNet, LightGBM, Feature Engineering, Calibration(Focal Loss, Isotonic)
+- Skills: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX, Feature Engineering, Calibration(Focal Loss, Isotonic)
 
 ***
 
@@ -70,8 +70,8 @@
   컨테이너화한 ML-WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.
 - (KISA)사이버보안 AI/빅데이터 챌린지 A-트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여
   Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.
-- Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
-- Links : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
+- Skills : Python, Lua, TensorFlow, Scikit-learn, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
+- Links : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023) | [patent](https://doi.org/10.8080/1020240023149)
 
 ***
 
