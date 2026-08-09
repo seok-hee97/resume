@@ -32,7 +32,7 @@ Responsibilities: ML Research / Automation Development
 
 ***
 
-### **Research Engineer** | Four-Chains | Development Team 2 *(1 Year 5 Months)*
+### **Research Engineer** | Four-Chains | Development Team 2 *(1 Year 4 Months)*
 *Goyang-si, South Korea | 2021.11 – 2023.03*
 Responsibilities: Antivirus Development / ML Research
 - **R&D of Topology-based Feature Selection Algorithm for malware detection**
