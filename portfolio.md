@@ -27,7 +27,7 @@
 ***
 
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
-> 5인 (Team LlamaGuard / Meta Llama Academy 1기) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (Team LlamaGuard / Meta Llama Academy 1기) | 2025.09.30 - 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
 - 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search
    →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
@@ -62,7 +62,7 @@
 ***
 
 ### **ML-WAF (+ KISA-AI-Challenge)**
-> 4인 (Team Pyree / S-Developer 1st) | 2023.07 - 2023.11
+> 4인 (Team Pyree / S-Developer 1st) | 2023.07 - 2023.11 | **특허 등록 10-2996906**
 - Nginx event-driven / async I/O 구조를 활용해 ML REST API와 MySQL을 연동한 고성능 ML-WAF.
 - ML 모델 개발 (LSTM / TF-IDF + SVM / CNN 기반 모델 개발 및 평가) 및 AWS 배포 담당.
 - 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 실시간 공격 타입 분류 모델(다중 분류) 개발.
@@ -71,7 +71,7 @@
 - (KISA)사이버보안 AI/빅데이터 챌린지 A-트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여
   Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.
 - Skills : Python, Lua, TensorFlow, Scikit-learn, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
-- Links : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023) | [patent](https://doi.org/10.8080/1020240023149)
+- Links : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023) | [특허 10-2996906](https://doi.org/10.8080/1020240023149)
 
 ***
 
