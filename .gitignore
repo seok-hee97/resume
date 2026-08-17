@@ -15,12 +15,15 @@ edu/
 Jobs/
 resume-docs/
 
-# 증빙 서류 (개인정보 포함) — 저장소에 올리지 않고 지원 시 개별 첨부
+# 증빙 서류 보관함 — 개인정보 포함, 지원 시 개별 첨부
+docs/private/
+
+# 안전망: docs/ 바로 아래 바이너리는 기본 차단 (실수로 증빙을 넣어도 커밋 안 되게)
 docs/*.pdf
 docs/*.docx
 docs/*.jpg
 docs/*.png
-# 예외: 공개해도 되는 산출물만 추적
+# 예외: 공개 산출물만 추적. 새 공개 파일은 여기에 추가할 것
 !docs/resume_simple.pdf
 !docs/Probe-AV.pdf
 !docs/llama-guard-pt.pdf
