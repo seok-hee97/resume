@@ -61,7 +61,7 @@
 ***
 
 ## **Certifications**
- - 영어 (NEW TEPS 343점 / 2등급)
+ - 영어 (NEW TEPS 343점 / 2등급, 2026.04.11)
  - 유통관리사 2급
  - 워드프로세서
  - Mos Master
