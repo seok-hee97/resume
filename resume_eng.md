@@ -50,7 +50,7 @@ Responsibilities: Antivirus Development / ML Research
 - 2017.01.09 – 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
 
 ## **Education**
-- 2016.03 – 2023.02 | Kangnam University | B.S. in Industrial Engineering / Software Engineering (Double Major)
+- 2016.03 – 2023.02 | Kangnam University | B.S. in Industrial Management Engineering / Software (Double Major)
   152 credits | Cumulative GPA 3.72 / 4.5 (Primary Major 4.00, Second Major 3.63)
 - 2023.04 – 2023.12 | KISIA | S-Developer (SDEV) 1st Cohort | Completed
 - 2023.11.13 – 2023.12.08 | KISIA | Cloud Security | Completed
@@ -62,7 +62,7 @@ Responsibilities: Antivirus Development / ML Research
 ***
 
 ## **Certifications**
-- English (NEW TEPS 343 / Level 2)
+- English (NEW TEPS 343 / Level 2, 2026.04.11)
 - Distribution Management Specialist (Level 2)
 - Word Processor Certification
 - Microsoft Office Specialist (MOS) Master

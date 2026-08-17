@@ -14,3 +14,14 @@ apply/
 edu/
 Jobs/
 resume-docs/
+
+# 증빙 서류 (개인정보 포함) — 저장소에 올리지 않고 지원 시 개별 첨부
+docs/*.pdf
+docs/*.docx
+docs/*.jpg
+docs/*.png
+# 예외: 공개해도 되는 산출물만 추적
+!docs/resume_simple.pdf
+!docs/Probe-AV.pdf
+!docs/llama-guard-pt.pdf
+!docs/patent-mlwaf.pdf
