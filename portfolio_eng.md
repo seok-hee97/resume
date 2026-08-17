@@ -1,6 +1,15 @@
-## **장석희 (Seokhee Chang)**
+# **Seokhee Chang (장석희)**
 
-## **PORTFOLIO**
+- Email: cycloevan97@gmail.com | GitHub: [seok-hee97](https://github.com/seok-hee97)
+
+## **Core Skills**
+- **Languages**: Python, C/C++, SQL, Bash
+- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, PySpark
+- **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
+- **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA
+- **Web / Serving**: FastAPI, Flask, Django, Streamlit
+- **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
+
 ## **PROJECTS**
 
 ***
@@ -19,14 +28,14 @@
 ***
 
 ### **AI Agent-Based Code Vulnerability Detection System**
-> Team Project (5 members, Team LlamaGuard / Meta Llama Academy 1st) | Oct 2, 2025 | **Excellence Award (Korea Radio Promotion Association)**
+> Team Project (5 members, Team LlamaGuard / Meta Llama Academy 1st) | Sep 30 - Oct 2, 2025 | **Excellence Award (Korea Radio Promotion Association)**
 
 - Led project planning, designed multi-agent LLM architecture, and developed the on-device LLM model.
 - **System Architecture**: On-device Model (Severity Detection) → RAG-based vectorized CVE database similarity search → Solar Pro2 (Patch generation for CVSS ≥ 7.0) → Automated report generation.
-- Fine-tuned **Llama-3.2-1B model** using **QLoRA** and optimized performance with **Llama.cpp** build for on-device deployment.
+- Fine-tuned **Llama-3.2-1B model** using **QLoRA**, then compressed it via **GGUF conversion + Llama.cpp build**, enabling real-time inference in an on-device environment.
 - Trained on a public dataset (11 programming languages / 5,000 samples) and validated on a test set (500 samples) with 100-sample random sampling.
   - Performance Improvement: **ROUGE-L F1: 0.0933 → 0.1335 (+43.1%)** / **BLEU: 0.0061 → 0.0219 (+259%)**.
-- **Skills**: Python, PyTorch, Transformers, LangChain, FAISS, Llama, QLoRA
+- **Skills**: Python, PyTorch, Transformers, **LangGraph**, LangChain, FAISS, sentence-transformers, Llama, **QLoRA, GGUF, Llama.cpp**
 - **Links**: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
 
 ***
@@ -41,7 +50,7 @@
 - Extracted and processed PE features from benign and ransomware samples, then trained and evaluated DNN-based ransomware detection models.
 - Built a training dataset by collecting and preprocessing approximately **3.5–4 million** internal malware/benign samples.
 - Improved model reliability by applying calibration techniques such as **Focal Loss** and **Isotonic Calibration**.
-- **Skills**: Python, TensorFlow, DNN, TabNet, LightGBM, Feature Engineering, Calibration (Focal Loss, Isotonic)
+- **Skills**: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX, Feature Engineering, Calibration (Focal Loss, Isotonic)
 
 ***
 
@@ -57,7 +66,7 @@
 ***
 
 ### **ML-WAF (+ KISA-AI-Challenge)**
-> Team Project (4 members, Team Pyree / S-Developer 1st) | July 2023 - Nov 2023
+> Team Project (4 members, Team Pyree / S-Developer 1st) | July 2023 - Nov 2023 | **KR Patent No. 10-2996906**
 
 - Developed a high-performance **ML-WAF** leveraging Nginx's event-driven/async I/O architecture integrated with ML REST API and MySQL.
 - Led ML model development (LSTM / TF-IDF + SVM / CNN-based models) and AWS deployment.
@@ -65,8 +74,8 @@
 - Deployed containerized ML-WAF components (Nginx Proxy server, WAS / WAF) using Docker on AWS environment (EC2, SageMaker, S3, CloudFormation).
 - **KISA Cybersecurity AI/Big Data Challenge**: Applied the same model to Track A (Web Firewall Log Analysis / Attack Type Classification).
   - Achieved **Accuracy: 90.868** / **Rank: 17/70 (Top 25%)**.
-- **Skills**: Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
-- **Links**: [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [KISA-AI-Challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
+- **Skills**: Python, Lua, TensorFlow, Scikit-learn, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
+- **Links**: [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [KISA-AI-Challenge 2023](https://github.com/seok-hee97/kisa-ai-2023) | [Patent 10-2996906](https://doi.org/10.8080/1020240023149)
 
 ***
 

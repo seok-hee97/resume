@@ -12,7 +12,7 @@
 ## **SUMMARY**
 **3년의 AI/ML 연구 개발 경력**을 보유한 연구원으로, 딥러닝 모델(NLP, Computer Vision) 개발 및 End-to-end ML 파이프라인 구축에 전문성을 갖추고 있습니다. **BERT/LLM 파인튜닝, QLoRA 최적화, AWS 기반 MLOps**에 강점이 있으며, Feature Engineering 및 Calibration 기법을 통해 악성코드 탐지 및 자동화 시스템의 성능을 개선한 경험이 있습니다.
 
-## **CORE SKILLS**:
+## **CORE SKILLS**
 - **Languages**: Python, C/C++, SQL, Bash
 - **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, PySpark
 - **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
@@ -22,6 +22,7 @@
 
 ## **EDUCATION**
 - 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공)| 학사 취득
+  총 152학점 | 전체 평점 3.72 / 4.5 (제1전공 4.00, 복수전공 3.63)
 - 2023.04 ~ 2023.12 | KISIA | SDEV(S-개발자) 1기 | 교육 수료
 - 2023.11.13 ~ 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료
 - 2023.10.27 ~ 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료
@@ -50,6 +51,9 @@
 - ML 탐지 엔진 및 실시간 보호 기능 등 Probe 안티바이러스 솔루션 개발
 - 악성코드 바이너리 GrayScale 이미지 변환 및 CNN 기반 탐지 연구
 
+## **PATENT**
+- 2026.07.23 | 「비동기 입출력 및 머신러닝 모델 기반 보안 위협 감지 시스템 및 방법」 | 등록번호 [10-2996906](https://doi.org/10.8080/1020240023149) | 특허 등록
+
 ## **PROJECTS**
 ***
 
@@ -66,7 +70,7 @@
 ***
 
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
-> 5인 (Team LlamaGuard / Meta Llama Academy 1st) | 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (Team LlamaGuard / Meta Llama Academy 1st) | 2025.09.30 - 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
 - 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search
    →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
@@ -148,6 +152,7 @@
 ***
 
 ## **Certifications**
+ - 영어 (NEW TEPS 343점 / 2등급)
  - 유통관리사 2급
  - 워드프로세서
  - Mos Master

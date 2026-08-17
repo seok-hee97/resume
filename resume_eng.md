@@ -43,11 +43,15 @@ Responsibilities: Antivirus Development / ML Research
 
 ***
 
+## **Patent**
+- 2026.07.23 | "System and Method for Detecting Security Threats Based on Asynchronous I/O and Machine Learning Models" | KR Patent No. [10-2996906](https://doi.org/10.8080/1020240023149) | Registered
+
 ## **Military Service**
 - 2017.01.09 – 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
 
 ## **Education**
 - 2016.03 – 2023.02 | Kangnam University | B.S. in Industrial Engineering / Software Engineering (Double Major)
+  152 credits | Cumulative GPA 3.72 / 4.5 (Primary Major 4.00, Second Major 3.63)
 - 2023.04 – 2023.12 | KISIA | S-Developer (SDEV) 1st Cohort | Completed
 - 2023.11.13 – 2023.12.08 | KISIA | Cloud Security | Completed
 - 2023.10.27 – 2023.11.16 | KISIA | Malware Analysis and Technology Trends Using AI | Completed
@@ -58,6 +62,7 @@ Responsibilities: Antivirus Development / ML Research
 ***
 
 ## **Certifications**
+- English (NEW TEPS 343 / Level 2)
 - Distribution Management Specialist (Level 2)
 - Word Processor Certification
 - Microsoft Office Specialist (MOS) Master
