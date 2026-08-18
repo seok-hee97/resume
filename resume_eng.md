@@ -51,7 +51,7 @@ Responsibilities: Antivirus Development / ML Research
 
 ## **Education**
 - 2016.03 – 2023.02 | Kangnam University | B.S. in Industrial Management Engineering / Software (Double Major)
-  152 credits | Cumulative GPA 3.72 / 4.5 (Primary Major 4.00, Second Major 3.63)
+  | GPA 3.72 / 4.5 (Primary Major 4.00, Second Major 3.63)
 - 2023.04 – 2023.12 | KISIA | S-Developer (SDEV) 1st Cohort | Completed
 - 2023.11.13 – 2023.12.08 | KISIA | Cloud Security | Completed
 - 2023.10.27 – 2023.11.16 | KISIA | Malware Analysis and Technology Trends Using AI | Completed
