@@ -82,13 +82,13 @@
 
 ***
 
-### **악성코드 탐지 모델 개발 및 성능 개선**
+### **TTSC 사내 악성코드 탐지 시스템 운영 및 EMBER 모델 개선**
 > 1인 (INCA Internet) | 2024.12 - 2025.03
-- 악성코드 탐지 관련 DNN 기반 논문 리뷰 세미나 진행 및 모델 설계·구현.
-- EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.
-  .NET 파일(데이터의 10%) 특징 절반 이상 결손 → ImplMap/TypeRef 테이블 파싱으로 Import Function 특징 보완 (성능 2%p 향상)
-- 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.
-- Skills: Python, TensorFlow, DNN, Feature Engineering, Calibration(Focal Loss, Isotonic)
+- TTSC 사내 악성코드 탐지 시스템을 운영·개선하고, EMBER 논문 분석을 바탕으로 PE 특징 기반 탐지 모델 설계·구현.
+- .NET 파일의 Import Function 특징 결손을 확인하고 ImplMap/TypeRef 테이블 파서를 구현하여 모델 성능 2%p 향상.
+- 사내 악성코드·정상 샘플 약 350–400만 건을 수집·정제해 학습 데이터셋을 구축하고, 분류 모델 학습·검증.
+- Focal Loss와 Isotonic Calibration을 적용하여 클래스 불균형에 대응하고 예측 신뢰도 개선.
+- Skills: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX
 
 ***
 

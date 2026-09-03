@@ -21,7 +21,7 @@
 - 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT 파인튜닝 → PE-Level 집계
 - 이진분류 (랜섬웨어 vs 정상) 테스트 결과 Accuracy 91.64% / F1-Score 0.95 달성, 복호화 가능여부 이진분류 F1-Score 0.93 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함)
 - 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화
-- 학습 전략 이원화: 랜섬웨어 vs 정상 분류는 Weighted Cross-Entropy Loss(클래스 불균형·소수 클래스 탐지 개선), 복호화 가능여부 판별은 SupCon(대조학습) + BCE 듀얼 로스로 학습
+- 학습 전략 이원화: 랜섬웨어 vs 정상 분류는 Weighted Cross-Entropy Loss(클래스 불균형 및 탐지 성능 개선), 복호화 가능여부 판별은 SupCon(대조학습) + BCE 듀얼 로스로 학습
 - Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone, Ghidra
 
 ***
@@ -41,13 +41,12 @@
 
 ### **TTSC 사내 악성코드 탐지 시스템 운영 및 EMBER 모델 개선**
 > 1인 (INCA Internet) | 2024.12 - 2025.03
-- TTSC 사내 악성코드 탐지 시스템 운영 및 개선 업무를 수행하며, EMBER 기반 탐지 모델 설계·구현.
-- 악성코드 탐지 관련 EMBER 기반 논문 리뷰 세미나 진행 및 PE feature 기반 모델링 전략 수립.
-- EMBER 특징 추출 방식을 기반으로 .NET 및 PE 파싱 로직을 개선하고, 별도 파서 구현을 통해 특징 추출 파이프라인 개발.
-  .NET 파일에서 Import Function 특징 결손 확인 → ImplMap/TypeRef 테이블 파싱으로 보완 (성능 2%p 향상)
-- 랜섬웨어 탐지 모델 개발을 위해 정상/랜섬웨어 PE feature를 추출·가공하고 분류 모델 학습 및 검증 수행.
-- 사내 악성코드/정상 샘플 약 350–400만 건 수집·정제하여 학습 데이터셋을 구축, Focal Loss·Isotonic Calibration 등 보정 기법 적용해 신뢰도 개선.
-- Skills: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX, Feature Engineering, Calibration(Focal Loss, Isotonic)
+- TTSC 사내 악성코드 탐지 시스템을 운영·개선하고, EMBER 논문 분석을 바탕으로 PE 특징 기반 탐지 모델 설계·구현.
+- .NET 파일의 Import Function 특징 결손을 확인하고 ImplMap/TypeRef 테이블 파서를 구현하여 모델 성능 2%p 향상.
+- 사내 악성코드·정상 샘플 약 350–400만 건을 수집·정제해 학습 데이터셋을 구축하고, 분류 모델 학습·검증.
+- Focal Loss와 Isotonic Calibration을 적용하여 클래스 불균형에 대응하고 예측 신뢰도 개선.
+- Skills: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX
+
 
 ***
 
