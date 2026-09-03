@@ -43,14 +43,11 @@
 ### **TTSC In-house Malware Detection System Operation & EMBER Model Improvement**
 > Solo Project (INCA Internet) | Dec 2024 - Mar 2025
 
-- Operated and improved the TTSC in-house malware detection system, designing and implementing EMBER-based malware detection models.
-- Conducted seminars on EMBER-based malware detection papers and established PE feature-based modeling strategy.
-- Improved .NET and PE parsing logic based on EMBER feature extraction methodology and developed a custom feature extraction pipeline.
-  - Resolved feature deficiency in .NET files (10% of data had >50% feature loss) by parsing ImplMap/TypeRef tables to supplement Import Function features (**2%p performance improvement**).
-- Extracted and processed PE features from benign and ransomware samples, then trained and evaluated DNN-based ransomware detection models.
-- Built a training dataset by collecting and preprocessing approximately **3.5–4 million** internal malware/benign samples.
-- Improved model reliability by applying calibration techniques such as **Focal Loss** and **Isotonic Calibration**.
-- **Skills**: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX, Feature Engineering, Calibration (Focal Loss, Isotonic)
+- Operated and improved the TTSC in-house malware detection system, designing and implementing PE feature-based detection models grounded in EMBER paper analysis.
+- Identified Import Function feature deficiency in .NET files and implemented an ImplMap/TypeRef table parser, achieving a **2%p performance improvement**.
+- Built a training dataset by collecting and preprocessing approximately **3.5–4 million** internal malware/benign samples, then trained and validated classification models.
+- Applied **Focal Loss** and **Isotonic Calibration** to address class imbalance and improve prediction reliability.
+- **Skills**: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX
 
 ***
 
