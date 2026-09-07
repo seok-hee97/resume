@@ -1,29 +1,63 @@
-.~lock.resume.docx#
-files/
-TEMP.md
-# md-pdf/
-# apply/
+# ─────────────────────────────────────────────────────────────
+# 이 저장소는 GitHub 공개 저장소다.
+# 공개 문서와 비공개 원자료가 한 폴더에 섞여 있으므로,
+# 새 파일을 추가할 때는 반드시 아래 규칙에 걸리는지 확인할 것.
+# 규칙 변경 후에는 `git ls-files | wc -l` 이 15인지 검증한다.
+# ─────────────────────────────────────────────────────────────
+
+# ── OS·편집기 부산물 ────────────────────────────────────────
+# (~/.gitignore_global 에만 의존하면 다른 머신에서 클론 시 무방비가 된다)
+.DS_Store
+**/.DS_Store
+.~lock.*#
+*.backup
+*.past
+*.tmp
+
+# ── 비공개 영역 ────────────────────────────────────────────
 AGENTS.md
 CLAUDE.md
-work/
-*.backup
-apply/
+TEMP.md
 .claude/
-인바합_자소서_작성법/
+files/
+work/
+apply/
 
+# apply/ 하위 폴더명 (과거 루트에 있던 시절의 잔여 규칙 — 유지)
 edu/
 Jobs/
 resume-docs/
+인바합_자소서_작성법/
 
 # 증빙 서류 보관함 — 개인정보 포함, 지원 시 개별 첨부
 docs/private/
 
-# 안전망: docs/ 바로 아래 바이너리는 기본 차단 (실수로 증빙을 넣어도 커밋 안 되게)
+# ── 안전망 1: 루트 ─────────────────────────────────────────
+# 루트에는 추적 대상이 .md 4개(README/portfolio/portfolio_eng/resume_eng)뿐이다.
+# 이력서 PDF·증빙을 루트에 잠깐 두는 일이 잦아, `git add -A` 사고를 원천 차단한다.
+/*.pdf
+/*.docx
+/*.hwp
+/*.hwpx
+/*.xlsx
+/*.pptx
+/*.zip
+/*.jpg
+/*.jpeg
+/*.png
+
+# ── 안전망 2: docs/ 바로 아래 바이너리 ─────────────────────
+# 증빙은 docs/private/ 에 넣는 것이 원칙. 여기 두더라도 커밋되지 않게 막는다.
 docs/*.pdf
 docs/*.docx
+docs/*.hwp
+docs/*.hwpx
+docs/*.xlsx
+docs/*.pptx
 docs/*.jpg
+docs/*.jpeg
 docs/*.png
-# 예외: 공개 산출물만 추적. 새 공개 파일은 여기에 추가할 것
+# 예외: 공개 산출물만 추적. 새 공개 파일은 반드시 여기에 등록할 것
 !docs/resume_simple.pdf
 !docs/Probe-AV.pdf
 !docs/llama-guard-pt.pdf
