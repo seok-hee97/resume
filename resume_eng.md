@@ -5,7 +5,7 @@
 - **GitHub**: <https://github.com/seok-hee97>
 - **LinkedIn**: <https://www.linkedin.com/in/seokhee-chang97/>
 - **Hugging Face**: <https://huggingface.co/cycloevan>
-- **Portfolio**: [Link](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+- **Portfolio**: [Link](https://github.com/seok-hee97/resume/blob/main/portfolio_eng.md)
 
 ***
 
