@@ -1,10 +1,10 @@
 # **Seokhee Chang (장석희)**
 
-- Email: cycloevan97@gmail.com | GitHub: [seok-hee97](https://github.com/seok-hee97)
+- **Email** : <cycloevan97@gmail.com> | **GitHub** : [seok-hee97](https://github.com/seok-hee97) | **LinkedIn** : [seokhee-chang97](https://www.linkedin.com/in/seokhee-chang97/)
 
 ## **Core Skills**
 - **Languages**: Python, C/C++, SQL, Bash
-- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, PySpark
+- **ML / Deep Learning**: PyTorch, TensorFlow, scikit-learn, PySpark
 - **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
 - **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA
 - **Web / Serving**: FastAPI, Flask, Django, Streamlit
@@ -19,7 +19,7 @@
 
 - Contributed to the AI analysis model track of an R&D project, `sLLM-based ransomware analysis technology and real-time blocking/backup solution development`.
 - Designed and implemented an assembly-code semantic analysis system for ransomware analysis service and real-time blocking/backup solution R&D.
-- **Core Technology Pipeline**: PE file → Function-level disassembly → Assembly normalization → Custom WordPiece tokenizer training → BERT fine-tuning → PE-level aggregation.
+- **Core Technology Pipeline**: PE file → Function-level disassembly → Assembly normalization → Custom WordPiece tokenizer training → BERT MLM pre-training → Fine-tuning → PE-level aggregation.
 - Achieved **91.64% Accuracy / 0.95 F1-Score** on binary classification (ransomware vs benign) and **0.93 F1-Score** on recoverability binary classification, including major ransomware families such as WannaCry, Petya, and LockBit.
 - Applied assembly instruction normalization strategy: Normalized addresses, constants, and strings to `[addr]`, `[const]`, and `[str]` tokens to enhance the model's behavioral pattern learning.
 - Training strategy: **Weighted Cross-Entropy Loss** for ransomware-vs-benign classification (class imbalance), and a **SupCon (contrastive) + BCE dual loss** for recoverability classification.
@@ -30,13 +30,13 @@
 ### **AI Agent-Based Code Vulnerability Detection System**
 > Team Project (5 members, Team LlamaGuard / Meta Llama Academy 1st) | Sep 30 - Oct 2, 2025 | **Excellence Award (Korea Radio Promotion Association)**
 
-- Led project planning, designed multi-agent LLM architecture, and developed the on-device LLM model.
+- Responsible for project planning, multi-agent LLM architecture design, and on-device LLM model development.
 - **System Architecture**: On-device Model (Severity Detection) → RAG-based vectorized CVE database similarity search → Solar Pro2 (Patch generation for CVSS ≥ 7.0) → Automated report generation.
-- Fine-tuned **Llama-3.2-1B model** using **QLoRA**, then compressed it via **GGUF conversion + Llama.cpp build**, enabling real-time inference in an on-device environment.
+- Fine-tuned **Llama-3.2-1B model** using **QLoRA**, then compressed it via **GGUF conversion + llama.cpp build**, enabling real-time inference in an on-device environment.
 - Trained on a public dataset (11 programming languages / 5,000 samples) and validated on a test set (500 samples) with 100-sample random sampling.
   - Performance Improvement: **ROUGE-L F1: 0.0933 → 0.1335 (+43.1%)** / **BLEU: 0.0061 → 0.0219 (+259%)**.
-- **Skills**: Python, PyTorch, Transformers, **LangGraph**, LangChain, FAISS, sentence-transformers, Llama, **QLoRA, GGUF, Llama.cpp**
-- **Links**: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
+- **Skills**: Python, PyTorch, Transformers, **LangGraph**, LangChain, FAISS, sentence-transformers, Llama, **QLoRA, GGUF, llama.cpp**
+- **Links**: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q)
 
 ***
 
@@ -56,7 +56,7 @@
 
 - Designed and implemented a GDPR Q&A-specialized Gemma-2-2B fine-tuning pipeline (SFT → Rejection Sampling → DPO).
 - Designed a dual evaluation framework: quantitative (n=100) + GPT-4o Judge qualitative (n=50).
-- **Results**: SFT delivered the largest improvement over the base model (ROUGE-L **+12%**, BLEU **+37%**, BertScore F1 **+1.3%**); DPO maintained SFT-level performance.
+- **Results**: SFT delivered the largest improvement over the base model (ROUGE-L **+12%**, BLEU **+37%**, BERTScore F1 **+1.3%**); DPO maintained SFT-level performance.
 - **Skills**: Python, PyTorch, Transformers, QLoRA, DPO, Streamlit, Docker
 - **Links**: [HuggingFace Model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
@@ -66,12 +66,12 @@
 > Team Project (4 members, Team Pyree / S-Developer 1st) | July 2023 - Nov 2023 | **KR Patent No. 10-2996906**
 
 - Developed a high-performance **ML-WAF** leveraging Nginx's event-driven/async I/O architecture integrated with ML REST API and MySQL.
-- Led ML model development (LSTM / TF-IDF + SVM / CNN-based models) and AWS deployment.
+- Responsible for ML model development (LSTM / TF-IDF + SVM / CNN-based models) and AWS deployment.
 - Collected and preprocessed network data to extract features and developed a real-time attack type classification model (multi-class).
 - Deployed containerized ML-WAF components (Nginx Proxy server, WAS / WAF) using Docker on AWS environment (EC2, SageMaker, S3, CloudFormation).
 - **KISA Cybersecurity AI/Big Data Challenge**: Applied the same model to Track A (Web Firewall Log Analysis / Attack Type Classification).
-  - Achieved **Accuracy: 90.868** / **Rank: 17/70 (Top 25%)**.
-- **Skills**: Python, Lua, TensorFlow, Scikit-learn, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
+  - Achieved **Accuracy: 90.868%** / **Rank: 17/70 (Top 25%)**.
+- **Skills**: Python, Lua, TensorFlow, scikit-learn, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
 - **Links**: [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [KISA-AI-Challenge 2023](https://github.com/seok-hee97/kisa-ai-2023) | [Patent 10-2996906](https://doi.org/10.8080/1020240023149)
 
 ***
@@ -83,7 +83,7 @@
 - Implemented three scan modes: Quick Scan (vulnerable areas), Deep Scan (user-selected areas), and Smart Scan (scan + optimization).
 - Applied mathematical modeling algorithms (**ML-based similarity algorithms**) combined with logic-based detection algorithms for malware detection.
 - Developed system optimization (cleanup of 34 file extensions), quarantine management (restore/remediate), and real-time protection features.
-- **Skills**: Python, PyQt (GUI), SQL, Inno Setup, ML, Scikit-learn
+- **Skills**: Python, PyQt (GUI), SQL, Inno Setup, ML, scikit-learn
 - **Links**: [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
 
 ***
@@ -96,4 +96,4 @@
 - **Algorithm**: Map features to **Topological Space** → Generate **Open Balls** → Calculate weight for each Ball → Select central features.
 - **Malware Detection Application**: Reduced feature count by **91% (69 → 6)** while improving classification accuracy by **3%p**.
 - Led seminars on Topology mathematics and developed algorithms based on mathematical concepts (Metric Space, Open Ball, Continuity).
-- **Skills**: Python, Mathematics (Topology), Feature Engineering, Scikit-learn
+- **Skills**: Python, Mathematics (Topology), Feature Engineering, scikit-learn
