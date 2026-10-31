@@ -6,46 +6,52 @@
 ***
 
 ## **SUMMARY**
-**3년의 AI/ML 연구 개발 경력**을 보유한 연구원으로, 딥러닝 모델(NLP, Computer Vision) 개발 및 End-to-end ML 파이프라인 구축에 전문성을 갖추고 있습니다. **BERT/LLM 파인튜닝, QLoRA 최적화, AWS 기반 MLOps**에 강점이 있으며, Feature Engineering 및 Calibration 기법을 통해 악성코드 탐지 및 자동화 시스템의 성능을 개선한 경험이 있습니다.
+**3년 3개월의 AI/ML 연구 개발 경력**을 보유한 연구원으로, 딥러닝 모델(NLP, Computer Vision) 개발 및 End-to-end ML 파이프라인 구축에 전문성을 갖추고 있습니다. **BERT/LLM 파인튜닝, QLoRA 최적화, AWS 기반 MLOps**에 강점이 있으며, Feature Engineering 및 Calibration 기법을 통해 악성코드 탐지 및 자동화 시스템의 성능을 개선한 경험이 있습니다.
 
 ## **CORE SKILLS**
 - **Languages**: Python, C/C++, SQL, Bash
-- **ML / Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, PySpark
+- **ML / Deep Learning**: PyTorch, TensorFlow, scikit-learn, PySpark
 - **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
 - **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA
 - **Web / Serving**: FastAPI, Flask, Django, Streamlit
 - **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
 
 ## **EDUCATION**
-- 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공)| 학사 취득
+- 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공) | 학사 취득
   | 평점 3.72 / 4.5 (제1전공 4.00, 복수전공 3.63)
 - 2023.04 ~ 2023.12 | KISIA | SDEV(S-개발자) 1기 | 교육 수료
-- 2023.11.13 ~ 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료
 - 2023.10.27 ~ 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료
+- 2023.11.13 ~ 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료
 - 2023.11.22 ~ 2023.11.24 | KISIA | ICT융합산업보안 인력양성사업 블록체인 분야 | 교육 수료
 - 2024.07 ~ 2024.10 | GOOGLE | GOOGLE ML BOOTCAMP 5기 | 수료
 - 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료 (우수상 수상)
+
 ## **MILITARY**
-- 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대  | 특기: 보급(Logistics)
+- 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대 | 특기: 보급(Logistics)
+
 ***
 
-## **EXPERIENCE**
-### **AI Developer** | INCA Internet
+## **EXPERIENCE (3년 3개월)**
+
+### **AI Developer** | INCA Internet | ISARC *(1년 11개월)*
 *Seoul, South Korea | 2024.07 - 2026.06*
-**Responsibilities**: ML 연구 & 업무자동화 개발
-- 최신 논문 분석을 통한 EMBER 기반 악성코드 탐지 모델 설계 및 구현
-- .NET PE 파싱 로직 개선으로 feature 결손 해결, 모델 성능 2%p 향상
-- R&D 과제 — BERT 기반 랜섬웨어 분석·분류 시스템 개발 (이진분류 Accuracy 91.64% / F1-Score 0.95, 복호화 가능여부 F1-Score 0.93)
-- 350-400만 샘플 데이터셋 구축 및 Calibration 기법 적용으로 신뢰도 개선
-- 16종 인스톨러 자동 설치 시스템 구축(88% 수집률)으로 데이터 확보 자동화
+담당업무: ML 연구 / 업무자동화 개발
+- **BERT 기반 랜섬웨어 분석·분류 시스템 개발** - R&D 과제
+- **사내 악성코드 탐지 서비스(TTSC) 운영·개선** — EMBER 기반 탐지 모델 설계·구현
+- **VT 메타데이터 검색 시스템 개발** (사내 VirusTotal 대체 사이트)
+- **16종 인스톨러 자동 설치 시스템 구축**으로 그레이 샘플 자동 확보
+- **위협 탐지·대응** 및 정적/동적 분석·YARA/CAPE 룰 등록 (상시)
+
 ***
-### **Research Engineer** | Four-Chains
+
+### **Research Engineer** | Four-Chains | 개발 2부 *(1년 4개월)*
 *Goyang-si, South Korea | 2021.11 - 2023.03*
-**Responsibilities**: 안티바이러스 개발 & ML 연구
-- 위상수학(Topology) 기반 Feature Selection 알고리즘 연구개발
+담당업무: 안티바이러스 개발 / ML 연구
+- **(악성코드 탐지) 위상수학(Topology) 기반 Feature Selection 알고리즘 연구개발**
 - 악성코드 탐지 적용으로 feature 수 91% 감소(69→6개) 및 정확도 3%p 향상
-- ML 탐지 엔진 및 실시간 보호 기능 등 Probe 안티바이러스 솔루션 개발
+- **ML 탐지 엔진 및 실시간 보호 기능 등 Probe 안티바이러스 솔루션 개발**
 - 악성코드 바이너리 GrayScale 이미지 변환 및 CNN 기반 탐지 연구
+- 악성코드 분석 및 ML 탐지 엔진 운영 및 사내 세미나 진행 (상시)
 
 ## **PATENT**
 - 2026.07.23 | 「비동기 입출력 및 머신러닝 모델 기반 보안 위협 감지 시스템 및 방법」 | 등록번호 [10-2996906](https://doi.org/10.8080/1020240023149) | 특허 등록
@@ -55,26 +61,26 @@
 
 ### **BERT 기반 랜섬웨어 분석·분류 시스템**
 > 1인 (INCA Internet) | 2025.11 - 2026.01
-- BERT 기반 어셈블리 코드 의미 분석을 활용한 랜섬웨어 분석·분류 시스템 설계 및 구현
-- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 토크나이저·BERT 학습 → PE-Level 집계
-- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화
-- 1차 모델: BERT 파인튜닝 기반 랜섬웨어 vs 정상 이진분류, Weighted Cross-Entropy Loss(클래스 불균형 보정) 적용 — Accuracy 91.64% / F1-Score 0.95 달성
-- 2차 고도화: 어셈블리 전용 커스텀 토크나이저 학습 및 BERT MLM 사전학습 수행, 복호화 가능여부 이진분류 F1-Score 0.93 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함)
-- 별도 유사도 학습 트랙: Siamese 구조 + SupCon·BCE 결합 손실(joint loss) 적용
-- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone
+- R&D 과제 「sLLM 기반 랜섬웨어 분석 기술 및 실시간 차단/백업 솔루션 개발」의 AI 분석 모델 파트 수행.
+- 랜섬웨어 분석 서비스 및 실시간 차단/백업 솔루션을 목표로, 어셈블리 코드 의미 분석 기반 랜섬웨어 분류 시스템 설계 및 구현.
+- 핵심 기술 : PE 파일 → 함수 단위 디스어셈블리 → 어셈블리 정규화 → 커스텀 WordPiece 토크나이저 학습 → BERT MLM 사전학습 → 파인튜닝 → PE-Level 집계.
+- 이진분류 (랜섬웨어 vs 정상) 테스트 결과 Accuracy 91.64% / F1-Score 0.95 달성, 복호화 가능여부 이진분류 F1-Score 0.93 달성 (WannaCry, Petya, LockBit 등 주요 랜섬웨어 포함).
+- 어셈블리 명령어 정규화 전략 적용: 주소/상수/문자열을 [addr], [const], [str]로 정규화하여 모델의 행위 패턴 학습 강화.
+- 학습 전략 이원화: 랜섬웨어 vs 정상 분류는 Weighted Cross-Entropy Loss(클래스 불균형 및 탐지 성능 개선), 복호화 가능여부 판별은 SupCon(대조학습) + BCE 듀얼 로스로 학습.
+- Skills: Python, PyTorch, Transformers, BERT, Angr, Capstone, Ghidra
 
 ***
 
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
-> 5인 (Team LlamaGuard / Meta Llama Academy 1st) | 2025.09.30 - 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (팀명 LlamaGuard / Meta Llama Academy 1기) | 2025.09.30 - 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
 - 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search
-   →  Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
-- Llama-3.2-1B 모델을 fine-tuning (QLoRA) 및 Llama.cpp 빌드로 성능 최적화.
+   → Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
+- Llama-3.2-1B 모델을 fine-tuning (**QLoRA**) 후 **GGUF 변환 + llama.cpp 빌드로 경량화**, On-device 환경에서 실시간 추론 구현.
 - 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)
-- Skills : Python, PyTorch, Transformers, LangChain, FAISS, Llama, QLoRA
-- Links : [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q?si=HxqFZaDuiXVPCGQU)
+- Skills: Python, PyTorch, Transformers, **LangGraph**, LangChain, FAISS, sentence-transformers, Llama, **QLoRA, GGUF, llama.cpp**
+- Links: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q)
 
 ***
 
@@ -82,46 +88,48 @@
 > 1인 (INCA Internet) | 2024.12 - 2025.03
 - TTSC 사내 악성코드 탐지 시스템을 운영·개선하고, EMBER 논문 분석을 바탕으로 PE 특징 기반 탐지 모델 설계·구현.
 - .NET 파일의 Import Function 특징 결손을 확인하고 ImplMap/TypeRef 테이블 파서를 구현하여 모델 성능 2%p 향상.
-- 사내 악성코드·정상 샘플 약 350–400만 건을 수집·정제해 학습 데이터셋을 구축하고, 분류 모델 학습·검증.
+- 사내 악성코드·정상 샘플 약 350~400만 건을 수집·정제해 학습 데이터셋을 구축하고, 분류 모델 학습·검증.
 - Focal Loss와 Isotonic Calibration을 적용하여 클래스 불균형에 대응하고 예측 신뢰도 개선.
 - Skills: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX
 
 ***
 
 ### **Google ML Bootcamp**
-> 1인 (Google ML Bootcamp 5th) | 2024.07 - 2024.10
+> 1인 (Google ML Bootcamp 5기) | 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
 - (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 3.1% 달성.
   MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
-- (Gemma Sprint Project) GDPR compliance Q&A assistant 개발.
-  Gemma-2-2B model을 Direct Preference Optimization (DPO) 방식으로 fine-tuning.
-- Skills : PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML
-- Link : [gdpr-gemma model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
+- (Gemma Sprint Project) GDPR Compliance Q&A Assistant 개발.
+  GDPR Q&A 특화 Gemma-2-2B 파인튜닝 파이프라인 설계·구현 (SFT → Rejection Sampling → DPO).
+  이중 평가 프레임워크 설계: 정량 n=100 + GPT-4o Judge 정성 n=50.
+  실험 결과: Base 대비 SFT에서 최고 성능 개선 (ROUGE-L **+12%**, BLEU **+37%**, BERTScore F1 **+1.3%**). DPO도 SFT 수준 유지.
+- Skills: Python, PyTorch, TensorFlow, Transformers, XGBoost, LightGBM, ML, QLoRA, DPO, Streamlit, Docker
+- Links: [HuggingFace Model](https://huggingface.co/cycloevan/gdpr_gemma-2-2b)
 
 ***
 
 ### **ML-WAF (+ KISA-AI-Challenge)**
-> 4인 (Team Pyree / S-Developer 1st) | 2023.07 - 2023.11
+> 4인 (Team Pyree / S-개발자 1기) | 2023.07 - 2023.11 | **특허 등록 10-2996906**
 - Nginx event-driven / async I/O 구조를 활용해 ML REST API와 MySQL을 연동한 고성능 ML-WAF.
 - ML 모델 개발 (LSTM / TF-IDF + SVM / CNN 기반 모델 개발 및 평가) 및 AWS 배포 담당.
 - 네트워크 데이터를 수집·전처리해 특징 추출 및 ML 기반 실시간 공격 타입 분류 모델(다중 분류) 개발.
-- AWS (EC2, SageMaker, S3, Cloudformation) 환경에 Docker 기반으로 서비스 운영 환경을
+- AWS (EC2, SageMaker, S3, CloudFormation) 환경에 Docker 기반으로 서비스 운영 환경을
   컨테이너화한 ML-WAF 구성 요소(Nginx Proxy 서버, WAS / WAF) 배포.
-- (KISA)사이버보안 AI/빅데이터 챌린지 A-트랙(웹 방화벽 로그 분석/ 공격유형 분류) 동일 모델 적용하여
-  Accuracy : 90.868 / Rank : 17/70(top 25%) 성적 달성.
-- Skills : Python, Lua, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
-- Links : [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023)
+- (KISA) 사이버보안 AI/빅데이터 챌린지 A-트랙(웹 방화벽 로그 분석 / 공격유형 분류) 동일 모델 적용하여
+  Accuracy : 90.868% / Rank : 17/70 (top 25%) 성적 달성.
+- Skills: Python, Lua, TensorFlow, scikit-learn, Django, Flask, Nginx, AWS (EC2, SageMaker, S3, CloudFormation), MySQL, SQLite, Docker
+- Links: [ML-WAF](https://github.com/Team-Pyree/mlwaf) | [kisa-ai-challenge 2023](https://github.com/seok-hee97/kisa-ai-2023) | [특허 10-2996906 (출원 10-2024-0023149)](https://doi.org/10.8080/1020240023149)
 
 ***
 
 ### **Probe Anti-Virus 프로그램**
-> 2-3인 (Four-Chains) | 2022.03 - 2022.11
+> 2~3인 (Four-Chains) | 2022.03 - 2022.11
 - ML 기반 악성코드 탐지 및 시스템 최적화 기능을 갖춘 안티바이러스 솔루션 개발.
 - 빠른검사 (취약 영역 중점) / 정밀검사 (사용자 선택 영역) / 스마트 검사 (스캔 + 최적화) 검사 기능 개발.
   (악성코드 탐지) 수학적 모델링 알고리즘(ML 기반 유사도 알고리즘) + 로직 기반 탐지 알고리즘 적용.
 - 시스템 최적화(34개 확장자 불필요 파일 (경로) 삭제), 격리소 관리(복원/치료), 실시간 보호 기능 구현 개발.
-- Skills : Python, PyQt (GUI), SQL, Inno Setup, ML, Scikit-learn
-- Links : [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
+- Skills: Python, PyQt (GUI), SQL, Inno Setup, ML, scikit-learn
+- Links: [Wadiz](https://www.wadiz.kr/web/campaign/detail/153064) | [Docs](https://github.com/seok-hee97/resume/blob/main/docs/Probe-AV.pdf) | [Wiki](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EB%B8%8C_%EB%B0%B1%EC%8B%A0)
 
 ***
 
@@ -130,9 +138,9 @@
 - Metric Space 이론 기반 Feature Selection 알고리즘 설계 및 구현.
   선행연구 : 'Analysis method for Data similarity measure in Metric Space'
 - 알고리즘: Feature를 위상공간(Topological Space)에 매핑하여 Open Ball 생성 → 각 Ball의 가중치 계산 → 중심 Feature 선택.
-- (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 6개로 91% 감소, 분류 정확도 +3%p 향상.
-- 위상수학 Topology 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity) 기반 알고리즘 개발.
-- Skills : Python, Mathematics (Topology), Feature Engineering, Scikit-learn
+- (악성코드 탐지) 알고리즘 적용 시 Feature 수 69개 → 6개로 91% 감소, 분류 정확도 3%p 향상.
+- 위상수학(Topology) 세미나 진행 및 수학적 개념(Metric Space, Open Ball, Continuity) 기반 알고리즘 개발.
+- Skills: Python, Mathematics (Topology), Feature Engineering, scikit-learn
 
 ***
 
@@ -148,11 +156,7 @@
 ***
 
 ## **Certifications**
- - 영어 (NEW TEPS 343점 / 2등급, 2026.04.11)
- - 유통관리사 2급
- - 워드프로세서
- - Mos Master
-
-
-
-
+- 영어 (NEW TEPS 343점 / 2등급, 2026.04.11)
+- 유통관리사 2급
+- 워드프로세서
+- MOS Master

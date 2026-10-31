@@ -1,6 +1,6 @@
 # **장석희 (Seokhee Chang)**
 
-- Email: cycloevan97@gmail.com | GitHub: [seok-hee97](https://github.com/seok-hee97)
+- **Email** : <cycloevan97@gmail.com> | **GitHub** : [seok-hee97](https://github.com/seok-hee97) | **LinkedIn** : [seokhee-chang97](https://www.linkedin.com/in/seokhee-chang97/)
 
 ## **Core Skills**
 - **Languages**: Python, C/C++, SQL, Bash
@@ -27,7 +27,7 @@
 ***
 
 ### **AI Agent 기반 코드 취약점 탐지 시스템**
-> 5인 (팀명 LLaMA Guard / Meta Llama Academy 1기) | 2025.09.30 - 2025.10.02 | **우수상 (한국전파진흥협회장상)**
+> 5인 (팀명 LlamaGuard / Meta Llama Academy 1기) | 2025.09.30 - 2025.10.02 | **우수상 (한국전파진흥협회장상)**
 - 프로젝트 기획 및 Multi-agent LLM 아키텍처 설계, On-device LLM 모델 개발 담당
 - 시스템 구성 : On-device Model (취약점 종류 탐지 (Severity)) → RAG 기반 CVE database (vectorized) similarity search
    → Solar Pro2 (CVSS≥7.0 시 패치 생성) → 자동 리포트 작성
@@ -46,7 +46,6 @@
 - 사내 악성코드·정상 샘플 약 350~400만 건을 수집·정제해 학습 데이터셋을 구축하고, 분류 모델 학습·검증.
 - Focal Loss와 Isotonic Calibration을 적용하여 클래스 불균형에 대응하고 예측 신뢰도 개선.
 - Skills: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX
-
 
 ***
 
