@@ -1,7 +1,7 @@
 # **장석희 (Seokhee Chang)**
 
 - **Email** : <cycloevan97@gmail.com> | **GitHub** : [seok-hee97](https://github.com/seok-hee97) | **LinkedIn** : [seokhee-chang97](https://www.linkedin.com/in/seokhee-chang97/)
-- **Hugging Face** : [cycloevan](https://huggingface.co/cycloevan) | **Portfolio** : [portfolio.md](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+- **Hugging Face** : [cycloevan](https://huggingface.co/cycloevan) | **Portfolio** : [portfolio.md](https://github.com/seok-hee97/resume/blob/main/portfolio.md) | **Career** : [경력기술서.md](https://github.com/seok-hee97/resume/blob/main/docs/%EA%B2%BD%EB%A0%A5%EA%B8%B0%EC%88%A0%EC%84%9C.md)
 
 ***
 
@@ -64,7 +64,7 @@
 - 공개 데이터셋 (개발언어 11개 / 데이터 5,000개)으로 학습 및 테스트셋(500개)에서 100개씩 랜덤샘플링해 모델 성능 검증.
   (ROUGE-L F1: 0.0933 → 0.1335, +43.1% / BLEU: 0.0061 → 0.0219, +259% 성능 개선)
 - Skills: Python, PyTorch, Transformers, **LangGraph**, LangChain, FAISS, sentence-transformers, Llama, **QLoRA, GGUF, llama.cpp**
-- Links: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q)
+- Links: [Code](https://github.com/MLA-LlamaGuard/llama-guard) | [HF Model](https://huggingface.co/cycloevan/vuln_detector) | [Meta Blog](https://about.fb.com/ko/news/2025/10/meta-llm-agent-on-device-ai-workshop/) | [ETNews Article](https://www.etnews.com/20251002000253) | [Video](https://youtu.be/QmFy0eGHI7Q)
 
 ***
 

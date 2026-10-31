@@ -1,7 +1,7 @@
 # **장석희 (Seokhee Chang)**
 
 - **Email** : <cycloevan97@gmail.com> | **GitHub** : [seok-hee97](https://github.com/seok-hee97) | **LinkedIn** : [seokhee-chang97](https://www.linkedin.com/in/seokhee-chang97/)
-- **Hugging Face** : [cycloevan](https://huggingface.co/cycloevan) | **Portfolio** : [portfolio.md](https://github.com/seok-hee97/resume/blob/main/portfolio.md)
+- **Hugging Face** : [cycloevan](https://huggingface.co/cycloevan) | **Portfolio** : [portfolio.md](https://github.com/seok-hee97/resume/blob/main/portfolio.md) | **Career** : [경력기술서.md](https://github.com/seok-hee97/resume/blob/main/docs/%EA%B2%BD%EB%A0%A5%EA%B8%B0%EC%88%A0%EC%84%9C.md)
 
 ***
 
