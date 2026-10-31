@@ -2,7 +2,9 @@
 
 - **Email** : <cycloevan97@gmail.com> | **GitHub** : [seok-hee97](https://github.com/seok-hee97) | **LinkedIn** : [seokhee-chang97](https://www.linkedin.com/in/seokhee-chang97/)
 
-## **Core Skills**
+***
+
+## **CORE SKILLS**
 - **Languages**: Python, C/C++, SQL, Bash
 - **ML / Deep Learning**: PyTorch, TensorFlow, scikit-learn, PySpark
 - **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
@@ -10,12 +12,14 @@
 - **Web / Serving**: FastAPI, Flask, Django, Streamlit
 - **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
 
+***
+
 ## **PROJECTS**
 
 ***
 
 ### **BERT-Based Ransomware Analysis & Classification System**
-> Solo Project (INCA Internet) | Nov 2025 - Jan 2026
+> Solo Project (INCA Internet) | 2025.11 - 2026.01
 
 - Contributed to the AI analysis model track of an R&D project, `sLLM-based ransomware analysis technology and real-time blocking/backup solution development`.
 - Designed and implemented an assembly-code semantic analysis system for ransomware analysis service and real-time blocking/backup solution R&D.
@@ -28,7 +32,7 @@
 ***
 
 ### **AI Agent-Based Code Vulnerability Detection System**
-> Team Project (5 members, Team LlamaGuard / Meta Llama Academy 1st) | Sep 30 - Oct 2, 2025 | **Excellence Award (Korea Radio Promotion Association)**
+> Team Project (5 members, Team LlamaGuard / Meta Llama Academy 1st) | 2025.09.30 - 2025.10.02 | **Excellence Award (Korea Radio Promotion Association)**
 
 - Responsible for project planning, multi-agent LLM architecture design, and on-device LLM model development.
 - **System Architecture**: On-device Model (Severity Detection) → RAG-based vectorized CVE database similarity search → Solar Pro2 (Patch generation for CVSS ≥ 7.0) → Automated report generation.
@@ -41,10 +45,10 @@
 ***
 
 ### **TTSC In-house Malware Detection System Operation & EMBER Model Improvement**
-> Solo Project (INCA Internet) | Dec 2024 - Mar 2025
+> Solo Project (INCA Internet) | 2024.12 - 2025.03
 
 - Operated and improved the TTSC in-house malware detection system, designing and implementing PE feature-based detection models grounded in EMBER paper analysis.
-- Identified Import Function feature deficiency in .NET files and implemented an ImplMap/TypeRef table parser, achieving a **2%p performance improvement**.
+- Identified Import Function feature deficiency in .NET files and implemented an ImplMap/TypeRef table parser, achieving a **2 percentage-point performance improvement**.
 - Built a training dataset by collecting and preprocessing approximately **3.5–4 million** internal malware/benign samples, then trained and validated classification models.
 - Applied **Focal Loss** and **Isotonic Calibration** to address class imbalance and improve prediction reliability.
 - **Skills**: Python, TensorFlow, DNN, TabNet, LightGBM, ONNX
@@ -52,7 +56,7 @@
 ***
 
 ### **GDPR Compliance Q&A Assistant (Gemma-2-2B DPO Fine-tuning)**
-> Solo Project (Google ML Bootcamp 5th / Gemma Sprint Project) | July 2024 - Oct 2024
+> Solo Project (Google ML Bootcamp 5th / Gemma Sprint Project) | 2024.07 - 2024.10
 
 - Designed and implemented a GDPR Q&A-specialized Gemma-2-2B fine-tuning pipeline (SFT → Rejection Sampling → DPO).
 - Designed a dual evaluation framework: quantitative (n=100) + GPT-4o Judge qualitative (n=50).
@@ -63,7 +67,7 @@
 ***
 
 ### **ML-WAF (+ KISA-AI-Challenge)**
-> Team Project (4 members, Team Pyree / S-Developer 1st) | July 2023 - Nov 2023 | **KR Patent No. 10-2996906**
+> Team Project (4 members, Team Pyree / S-Developer 1st) | 2023.07 - 2023.11 | **KR Patent No. 10-2996906**
 
 - Developed a high-performance **ML-WAF** leveraging Nginx's event-driven/async I/O architecture integrated with ML REST API and MySQL.
 - Responsible for ML model development (LSTM / TF-IDF + SVM / CNN-based models) and AWS deployment.
@@ -77,7 +81,7 @@
 ***
 
 ### **Probe Anti-Virus Program**
-> Team Project (2-3 members, Four-Chains) | Mar 2022 - Nov 2022
+> Team Project (2-3 members, Four-Chains) | 2022.03 - 2022.11
 
 - Developed an anti-virus solution featuring ML-based malware detection and system optimization capabilities.
 - Implemented three scan modes: Quick Scan (vulnerable areas), Deep Scan (user-selected areas), and Smart Scan (scan + optimization).
@@ -89,11 +93,11 @@
 ***
 
 ### **Topology-Based Feature Selection Algorithm Research**
-> Team Project (2 members, Four-Chains) | Aug 2022 - Mar 2023
+> Team Project (2 members, Four-Chains) | 2022.08 - 2023.03
 
 - Designed and implemented a Feature Selection algorithm based on Metric Space theory.
   - Prior Research: 'Analysis method for Data similarity measure in Metric Space'.
 - **Algorithm**: Map features to **Topological Space** → Generate **Open Balls** → Calculate weight for each Ball → Select central features.
-- **Malware Detection Application**: Reduced feature count by **91% (69 → 6)** while improving classification accuracy by **3%p**.
+- **Malware Detection Application**: Reduced feature count by **91% (69 → 6)** while improving classification accuracy by **3 percentage points**.
 - Led seminars on Topology mathematics and developed algorithms based on mathematical concepts (Metric Space, Open Ball, Continuity).
 - **Skills**: Python, Mathematics (Topology), Feature Engineering, scikit-learn

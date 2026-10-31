@@ -5,7 +5,7 @@
 
 ***
 
-## **Core Skills**
+## **CORE SKILLS**
 - **Languages**: Python, C/C++, SQL, Bash
 - **ML / Deep Learning**: PyTorch, TensorFlow, scikit-learn, PySpark
 - **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
@@ -15,49 +15,53 @@
 
 ***
 
-## **Experience (3 Years 3 Months)**
+## **EXPERIENCE (3 Years 3 Months)**
 
 ### **AI Developer** | INCA Internet | ISARC *(1 Year 11 Months)*
-*Seoul, South Korea | 2024.07 – 2026.06*
+*Seoul, South Korea | 2024.07 - 2026.06*
 Responsibilities: ML Research / Automation Development
 - **Developed BERT-based Ransomware Analysis & Classification System** (R&D project)
 - **Operated & improved the in-house malware detection service (TTSC)** — designed/implemented an EMBER-based detection model
 - **Developed VT Metadata Search System** (in-house VirusTotal replacement)
-- **Built an automated installer system for 16 types** for gray-sample acquisition
+- **Built an automated installation system covering 16 installer types** to acquire gray samples
 - **Threat detection & response**: static/dynamic analysis, YARA/CAPE rule registration (ongoing)
 
 ***
 
 ### **Research Engineer** | Four-Chains | Development Team 2 *(1 Year 4 Months)*
-*Goyang-si, South Korea | 2021.11 – 2023.03*
+*Goyang-si, South Korea | 2021.11 - 2023.03*
 Responsibilities: Antivirus Development / ML Research
 - **R&D of Topology-based Feature Selection Algorithm for malware detection**
-- Applied to malware detection: reduced feature count by 91% (69→6) and improved accuracy by 3%p
+- Applied to malware detection: reduced feature count by 91% (69→6) and improved accuracy by 3 percentage points
 - **Developed Probe Antivirus solution** including ML detection engine and real-time protection
 - Researched malware binary grayscale image conversion and CNN-based detection
 - Malware analysis, ML detection engine operation, and regular in-house seminars (ongoing)
 
 ***
 
-## **Patent**
+## **PATENT**
 - 2026.07.23 | "System and Method for Detecting Security Threats Based on Asynchronous I/O and Machine Learning Models" | KR Patent No. [10-2996906](https://doi.org/10.8080/1020240023149) | Registered
-
-## **Military Service**
-- 2017.01.09 – 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
-
-## **Education**
-- 2016.03 – 2023.02 | Kangnam University | B.S. in Industrial Management Engineering / Software (Double Major)
-  | GPA 3.72 / 4.5 (Primary Major 4.00, Second Major 3.63)
-- 2023.04 – 2023.12 | KISIA | S-Developer (SDEV) 1st Cohort | Completed
-- 2023.10.27 – 2023.11.16 | KISIA | Malware Analysis and Technology Trends Using AI | Completed
-- 2023.11.13 – 2023.12.08 | KISIA | Cloud Security | Completed
-- 2023.11.22 – 2023.11.24 | KISIA | ICT Convergence Industry Security – Blockchain | Completed
-- 2024.07 – 2024.10 | Google | Google ML Bootcamp 5th Cohort | Completed
-- 2025.09.30 – 2025.10.02 | Meta / Upstage | Meta Llama Academy 1st Cohort | Completed (Excellence Award)
 
 ***
 
-## **Certifications**
+## **MILITARY SERVICE**
+- 2017.01.09 - 2018.12.31 | Republic of Korea Air Force | Honorable Discharge | Specialty: Logistics
+
+***
+
+## **EDUCATION**
+- 2016.03 - 2023.02 | Kangnam University | B.S. in Industrial Management Engineering / Software (Double Major)
+  | GPA 3.72 / 4.5 (Primary Major 4.00, Second Major 3.63)
+- 2023.04 - 2023.12 | KISIA | S-Developer (SDEV) 1st Cohort | Completed
+- 2023.10.27 - 2023.11.16 | KISIA | Malware Analysis and Technology Trends Using AI | Completed
+- 2023.11.13 - 2023.12.08 | KISIA | Cloud Security | Completed
+- 2023.11.22 - 2023.11.24 | KISIA | ICT Convergence Industry Security – Blockchain | Completed
+- 2024.07 - 2024.10 | Google | Google ML Bootcamp 5th Cohort | Completed
+- 2025.09.30 - 2025.10.02 | Meta / Upstage | Meta Llama Academy 1st Cohort | Completed (Excellence Award)
+
+***
+
+## **CERTIFICATIONS**
 - English (NEW TEPS 343 / Level 2, 2026.04.11)
 - Distribution Management Specialist (Level 2)
 - Word Processor Certification

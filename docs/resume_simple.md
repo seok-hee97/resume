@@ -5,9 +5,6 @@
 
 ***
 
-## **SUMMARY**
-**3년 3개월의 AI/ML 연구 개발 경력**을 보유한 연구원으로, 딥러닝 모델(NLP, Computer Vision) 개발 및 End-to-end ML 파이프라인 구축에 전문성을 갖추고 있습니다. **BERT/LLM 파인튜닝, QLoRA 최적화, AWS 기반 MLOps**에 강점이 있으며, Feature Engineering 및 Calibration 기법을 통해 악성코드 탐지 및 자동화 시스템의 성능을 개선한 경험이 있습니다.
-
 ## **CORE SKILLS**
 - **Languages**: Python, C/C++, SQL, Bash
 - **ML / Deep Learning**: PyTorch, TensorFlow, scikit-learn, PySpark
@@ -15,19 +12,6 @@
 - **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA
 - **Web / Serving**: FastAPI, Flask, Django, Streamlit
 - **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
-
-## **EDUCATION**
-- 2016.03 ~ 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공) | 학사 취득
-  | 평점 3.72 / 4.5 (제1전공 4.00, 복수전공 3.63)
-- 2023.04 ~ 2023.12 | KISIA | SDEV(S-개발자) 1기 | 교육 수료
-- 2023.10.27 ~ 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료
-- 2023.11.13 ~ 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료
-- 2023.11.22 ~ 2023.11.24 | KISIA | ICT융합산업보안 인력양성사업 블록체인 분야 | 교육 수료
-- 2024.07 ~ 2024.10 | GOOGLE | GOOGLE ML BOOTCAMP 5기 | 수료
-- 2025.09.30 ~ 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료 (우수상 수상)
-
-## **MILITARY**
-- 2017.01.09 ~ 2018.12.31 | 대한민국 공군 | 현역 만기 제대 | 특기: 보급(Logistics)
 
 ***
 
@@ -53,10 +37,10 @@
 - 악성코드 바이너리 GrayScale 이미지 변환 및 CNN 기반 탐지 연구
 - 악성코드 분석 및 ML 탐지 엔진 운영 및 사내 세미나 진행 (상시)
 
-## **PATENT**
-- 2026.07.23 | 「비동기 입출력 및 머신러닝 모델 기반 보안 위협 감지 시스템 및 방법」 | 등록번호 [10-2996906](https://doi.org/10.8080/1020240023149) | 특허 등록
+***
 
 ## **PROJECTS**
+
 ***
 
 ### **BERT 기반 랜섬웨어 분석·분류 시스템**
@@ -98,7 +82,7 @@
 > 1인 (Google ML Bootcamp 5기) | 2024.07 - 2024.10
 - (Coursera) Deep Learning Specialization 교육 과정 수료 및 스터디 진행.
 - (Kaggle Competition) Binary Prediction of Poisonous Mushrooms 상위 3.1% 달성.
-  MCC Score : 0.98502 (Rank :76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
+  MCC Score : 0.98502 (Rank : 76/2,422, top 3.1% | Feature engineering과 XGBoost, LightGBM 등 활용)
 - (Gemma Sprint Project) GDPR Compliance Q&A Assistant 개발.
   GDPR Q&A 특화 Gemma-2-2B 파인튜닝 파이프라인 설계·구현 (SFT → Rejection Sampling → DPO).
   이중 평가 프레임워크 설계: 정량 n=100 + GPT-4o Judge 정성 n=50.
@@ -155,7 +139,29 @@
 
 ***
 
-## **Certifications**
+## **PATENT**
+- 2026.07.23 | 「비동기 입출력 및 머신러닝 모델 기반 보안 위협 감지 시스템 및 방법」 | 등록번호 [10-2996906](https://doi.org/10.8080/1020240023149) | 특허 등록
+
+***
+
+## **MILITARY**
+- 2017.01.09 - 2018.12.31 | 대한민국 공군 | 현역 만기 제대 | 특기: 보급(Logistics)
+
+***
+
+## **EDUCATION**
+- 2016.03 - 2023.02 | 강남대학교 | 산업경영공학전공/소프트웨어전공(복수전공) | 학사 취득
+  | 평점 3.72 / 4.5 (제1전공 4.00, 복수전공 3.63)
+- 2023.04 - 2023.12 | KISIA | SDEV(S-개발자) 1기 | 교육 수료
+- 2023.10.27 - 2023.11.16 | KISIA | AI를 활용한 악성코드 분석 및 기술 동향 | 교육 수료
+- 2023.11.13 - 2023.12.08 | KISIA | 클라우드 보안 | 교육 수료
+- 2023.11.22 - 2023.11.24 | KISIA | ICT융합산업보안 인력양성사업 블록체인 분야 | 교육 수료
+- 2024.07 - 2024.10 | Google | Google ML Bootcamp 5기 | 수료
+- 2025.09.30 - 2025.10.02 | Meta/Upstage | Meta Llama Academy 1기 | 수료 (우수상 수상)
+
+***
+
+## **CERTIFICATIONS**
 - 영어 (NEW TEPS 343점 / 2등급, 2026.04.11)
 - 유통관리사 2급
 - 워드프로세서

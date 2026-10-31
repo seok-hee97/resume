@@ -2,13 +2,17 @@
 
 - **Email** : <cycloevan97@gmail.com> | **GitHub** : [seok-hee97](https://github.com/seok-hee97) | **LinkedIn** : [seokhee-chang97](https://www.linkedin.com/in/seokhee-chang97/)
 
-## **Core Skills**
+***
+
+## **CORE SKILLS**
 - **Languages**: Python, C/C++, SQL, Bash
 - **ML / Deep Learning**: PyTorch, TensorFlow, scikit-learn, PySpark
 - **LLM / NLP**: HuggingFace Transformers, BERT, PEFT, LangChain/LangGraph, RAG
 - **Security / RE**: PE·Malware Analysis, Ghidra, IDA, Angr, Capstone, YARA
 - **Web / Serving**: FastAPI, Flask, Django, Streamlit
 - **Cloud / DevOps**: AWS (EC2/S3/Lambda/SageMaker), Docker, Git, Elasticsearch
+
+***
 
 ## **PROJECTS**
 
